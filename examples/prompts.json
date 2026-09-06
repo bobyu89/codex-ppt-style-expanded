@@ -1,0 +1,10 @@
+{
+  "backend": "built-in image_gen",
+  "model": "not exposed by tool",
+  "generated_at": "2026-09-06",
+  "prompts": {
+    "clinical-calm": "A premium 16:9 landscape PowerPoint background, no text whatsoever. Clinical clarity editorial aesthetic, almost white pale mint #F6FAFA canvas. Rightmost 38% of frame holds a sculptural arrangement of three translucent sea-glass panels, a frosted glass orb and fine teal optical threads, suggesting organizing knowledge. Precise understated soft daylight, sophisticated healthcare research aesthetic, no medical symbols. Left 60% and top 20% uniformly pale and completely empty for editable slide text. Wide open composition, highly refined material detail, no borders. No words, letters, digits, logos, watermark, charts or labels. Render 1536x864 or another exact 16:9 resolution.",
+    "friendly-clay": "A premium 16:9 landscape PowerPoint background with NO TEXT. Warm friendly soft 3D clay aesthetic, solid warm cream #FBF6EC background. Rightmost 38% contains a beautiful tactile clay composition: an open blank sage green book, a rounded peach arch, a floating cream sphere, small sage steps. Modern tasteful educational visual metaphor for learning, physical handmade matte clay textures, warm studio light with gentle shadows. Left 60% and top 20% uniformly cream and empty for editable text. Sophisticated adult design, restrained scale, no childish faces. No letters, numbers, symbols, text, labels, logos, watermark. Render exact 16:9.",
+    "cinematic-dark": "A premium 16:9 PowerPoint background with absolutely NO TEXT. Cinematic dark blue-black #101B28 environment. Rightmost 38% holds a dramatic sculptural translucent glass monolith, two luminous cyan glass planes and a small subtle amber light reflected on a dark floor, visual metaphor for clear ideas taking shape. Atmospheric volumetric rim lighting, sophisticated exhibition quality rendering, exceptionally polished and restrained. Left 60% remains uniformly very dark blue-black, top 20% dark and empty for white editable slide text, no distracting bloom there. No UI, charts, words, letters, digits, logos, watermarks, labels. Render exact 16:9."
+  }
+}

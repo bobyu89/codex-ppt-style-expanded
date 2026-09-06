@@ -1,0 +1,882 @@
+{
+  "width": 13.333333,
+  "height": 7.5,
+  "slides": [
+    {
+      "background": "backgrounds/clinical-calm.png",
+      "elements": [
+        {
+          "type": "text",
+          "text": "研究分享的三個準備",
+          "box": [
+            0.0546875,
+            0.10833333333333334,
+            0.59375,
+            0.10555555555555556
+          ],
+          "size": 36.0,
+          "color": "#173D43",
+          "font": "Microsoft JhengHei",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "01",
+          "box": [
+            0.05625,
+            0.30972222222222223,
+            0.0484375,
+            0.06111111111111111
+          ],
+          "size": 18.75,
+          "color": "#2A8C8B",
+          "font": "Microsoft JhengHei",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "釐清對象",
+          "box": [
+            0.1109375,
+            0.3055555555555556,
+            0.41015625,
+            0.06666666666666667
+          ],
+          "size": 24.0,
+          "color": "#173D43",
+          "font": "Microsoft JhengHei",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "了解聽眾的背景與需求",
+          "box": [
+            0.1109375,
+            0.3736111111111111,
+            0.4140625,
+            0.059722222222222225
+          ],
+          "size": 18.75,
+          "color": "#48686A",
+          "font": "Microsoft JhengHei",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "text": "02",
+          "box": [
+            0.05625,
+            0.4777777777777778,
+            0.0484375,
+            0.06111111111111111
+          ],
+          "size": 18.75,
+          "color": "#2A8C8B",
+          "font": "Microsoft JhengHei",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "選出重點",
+          "box": [
+            0.1109375,
+            0.4736111111111111,
+            0.41015625,
+            0.06666666666666667
+          ],
+          "size": 24.0,
+          "color": "#173D43",
+          "font": "Microsoft JhengHei",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "每頁只傳達一個核心訊息",
+          "box": [
+            0.1109375,
+            0.5416666666666666,
+            0.4140625,
+            0.059722222222222225
+          ],
+          "size": 18.75,
+          "color": "#48686A",
+          "font": "Microsoft JhengHei",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "text": "03",
+          "box": [
+            0.05625,
+            0.6458333333333334,
+            0.0484375,
+            0.06111111111111111
+          ],
+          "size": 18.75,
+          "color": "#2A8C8B",
+          "font": "Microsoft JhengHei",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "用例子說明",
+          "box": [
+            0.1109375,
+            0.6416666666666667,
+            0.41015625,
+            0.06666666666666667
+          ],
+          "size": 24.0,
+          "color": "#173D43",
+          "font": "Microsoft JhengHei",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "把抽象概念連結到具體情境",
+          "box": [
+            0.1109375,
+            0.7097222222222223,
+            0.4140625,
+            0.059722222222222225
+          ],
+          "size": 18.75,
+          "color": "#48686A",
+          "font": "Microsoft JhengHei",
+          "bold": false
+        }
+      ],
+      "notes": "Style demo: clinical-calm, zh-TW. AI background; independently editable native text."
+    },
+    {
+      "background": "backgrounds/friendly-clay.png",
+      "elements": [
+        {
+          "type": "text",
+          "text": "研究分享的三個準備",
+          "box": [
+            0.0546875,
+            0.10833333333333334,
+            0.59375,
+            0.10555555555555556
+          ],
+          "size": 36.0,
+          "color": "#263D38",
+          "font": "Microsoft JhengHei",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "01",
+          "box": [
+            0.05625,
+            0.30972222222222223,
+            0.0484375,
+            0.06111111111111111
+          ],
+          "size": 18.75,
+          "color": "#667D52",
+          "font": "Microsoft JhengHei",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "釐清對象",
+          "box": [
+            0.1109375,
+            0.3055555555555556,
+            0.41015625,
+            0.06666666666666667
+          ],
+          "size": 24.0,
+          "color": "#263D38",
+          "font": "Microsoft JhengHei",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "了解聽眾的背景與需求",
+          "box": [
+            0.1109375,
+            0.3736111111111111,
+            0.4140625,
+            0.059722222222222225
+          ],
+          "size": 18.75,
+          "color": "#536359",
+          "font": "Microsoft JhengHei",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "text": "02",
+          "box": [
+            0.05625,
+            0.4777777777777778,
+            0.0484375,
+            0.06111111111111111
+          ],
+          "size": 18.75,
+          "color": "#667D52",
+          "font": "Microsoft JhengHei",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "選出重點",
+          "box": [
+            0.1109375,
+            0.4736111111111111,
+            0.41015625,
+            0.06666666666666667
+          ],
+          "size": 24.0,
+          "color": "#263D38",
+          "font": "Microsoft JhengHei",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "每頁只傳達一個核心訊息",
+          "box": [
+            0.1109375,
+            0.5416666666666666,
+            0.4140625,
+            0.059722222222222225
+          ],
+          "size": 18.75,
+          "color": "#536359",
+          "font": "Microsoft JhengHei",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "text": "03",
+          "box": [
+            0.05625,
+            0.6458333333333334,
+            0.0484375,
+            0.06111111111111111
+          ],
+          "size": 18.75,
+          "color": "#667D52",
+          "font": "Microsoft JhengHei",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "用例子說明",
+          "box": [
+            0.1109375,
+            0.6416666666666667,
+            0.41015625,
+            0.06666666666666667
+          ],
+          "size": 24.0,
+          "color": "#263D38",
+          "font": "Microsoft JhengHei",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "把抽象概念連結到具體情境",
+          "box": [
+            0.1109375,
+            0.7097222222222223,
+            0.4140625,
+            0.059722222222222225
+          ],
+          "size": 18.75,
+          "color": "#536359",
+          "font": "Microsoft JhengHei",
+          "bold": false
+        }
+      ],
+      "notes": "Style demo: friendly-clay, zh-TW. AI background; independently editable native text."
+    },
+    {
+      "background": "backgrounds/cinematic-dark.png",
+      "elements": [
+        {
+          "type": "text",
+          "text": "研究分享的三個準備",
+          "box": [
+            0.0546875,
+            0.10833333333333334,
+            0.59375,
+            0.10555555555555556
+          ],
+          "size": 36.0,
+          "color": "#F5F4ED",
+          "font": "Microsoft JhengHei",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "01",
+          "box": [
+            0.05625,
+            0.30972222222222223,
+            0.0484375,
+            0.06111111111111111
+          ],
+          "size": 18.75,
+          "color": "#6ED8D0",
+          "font": "Microsoft JhengHei",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "釐清對象",
+          "box": [
+            0.1109375,
+            0.3055555555555556,
+            0.41015625,
+            0.06666666666666667
+          ],
+          "size": 24.0,
+          "color": "#F5F4ED",
+          "font": "Microsoft JhengHei",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "了解聽眾的背景與需求",
+          "box": [
+            0.1109375,
+            0.3736111111111111,
+            0.4140625,
+            0.059722222222222225
+          ],
+          "size": 18.75,
+          "color": "#B5C6D4",
+          "font": "Microsoft JhengHei",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "text": "02",
+          "box": [
+            0.05625,
+            0.4777777777777778,
+            0.0484375,
+            0.06111111111111111
+          ],
+          "size": 18.75,
+          "color": "#6ED8D0",
+          "font": "Microsoft JhengHei",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "選出重點",
+          "box": [
+            0.1109375,
+            0.4736111111111111,
+            0.41015625,
+            0.06666666666666667
+          ],
+          "size": 24.0,
+          "color": "#F5F4ED",
+          "font": "Microsoft JhengHei",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "每頁只傳達一個核心訊息",
+          "box": [
+            0.1109375,
+            0.5416666666666666,
+            0.4140625,
+            0.059722222222222225
+          ],
+          "size": 18.75,
+          "color": "#B5C6D4",
+          "font": "Microsoft JhengHei",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "text": "03",
+          "box": [
+            0.05625,
+            0.6458333333333334,
+            0.0484375,
+            0.06111111111111111
+          ],
+          "size": 18.75,
+          "color": "#6ED8D0",
+          "font": "Microsoft JhengHei",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "用例子說明",
+          "box": [
+            0.1109375,
+            0.6416666666666667,
+            0.41015625,
+            0.06666666666666667
+          ],
+          "size": 24.0,
+          "color": "#F5F4ED",
+          "font": "Microsoft JhengHei",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "把抽象概念連結到具體情境",
+          "box": [
+            0.1109375,
+            0.7097222222222223,
+            0.4140625,
+            0.059722222222222225
+          ],
+          "size": 18.75,
+          "color": "#B5C6D4",
+          "font": "Microsoft JhengHei",
+          "bold": false
+        }
+      ],
+      "notes": "Style demo: cinematic-dark, zh-TW. AI background; independently editable native text."
+    },
+    {
+      "background": "backgrounds/clinical-calm.png",
+      "elements": [
+        {
+          "type": "text",
+          "text": "Prepare a research talk",
+          "box": [
+            0.0546875,
+            0.10833333333333334,
+            0.59375,
+            0.10555555555555556
+          ],
+          "size": 35.25,
+          "color": "#173D43",
+          "font": "Arial",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "01",
+          "box": [
+            0.05625,
+            0.30972222222222223,
+            0.0484375,
+            0.06111111111111111
+          ],
+          "size": 18.75,
+          "color": "#2A8C8B",
+          "font": "Arial",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Know your audience",
+          "box": [
+            0.1109375,
+            0.3055555555555556,
+            0.41015625,
+            0.06666666666666667
+          ],
+          "size": 24.0,
+          "color": "#173D43",
+          "font": "Arial",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Understand their background and needs",
+          "box": [
+            0.1109375,
+            0.3736111111111111,
+            0.4140625,
+            0.059722222222222225
+          ],
+          "size": 17.25,
+          "color": "#48686A",
+          "font": "Arial",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "text": "02",
+          "box": [
+            0.05625,
+            0.4777777777777778,
+            0.0484375,
+            0.06111111111111111
+          ],
+          "size": 18.75,
+          "color": "#2A8C8B",
+          "font": "Arial",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Choose the key points",
+          "box": [
+            0.1109375,
+            0.4736111111111111,
+            0.41015625,
+            0.06666666666666667
+          ],
+          "size": 24.0,
+          "color": "#173D43",
+          "font": "Arial",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Give each slide one central message",
+          "box": [
+            0.1109375,
+            0.5416666666666666,
+            0.4140625,
+            0.059722222222222225
+          ],
+          "size": 17.25,
+          "color": "#48686A",
+          "font": "Arial",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "text": "03",
+          "box": [
+            0.05625,
+            0.6458333333333334,
+            0.0484375,
+            0.06111111111111111
+          ],
+          "size": 18.75,
+          "color": "#2A8C8B",
+          "font": "Arial",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Use concrete examples",
+          "box": [
+            0.1109375,
+            0.6416666666666667,
+            0.41015625,
+            0.06666666666666667
+          ],
+          "size": 24.0,
+          "color": "#173D43",
+          "font": "Arial",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Connect abstract ideas to familiar situations",
+          "box": [
+            0.1109375,
+            0.7097222222222223,
+            0.4140625,
+            0.059722222222222225
+          ],
+          "size": 17.25,
+          "color": "#48686A",
+          "font": "Arial",
+          "bold": false
+        }
+      ],
+      "notes": "Style demo: clinical-calm, en. AI background; independently editable native text."
+    },
+    {
+      "background": "backgrounds/friendly-clay.png",
+      "elements": [
+        {
+          "type": "text",
+          "text": "Prepare a research talk",
+          "box": [
+            0.0546875,
+            0.10833333333333334,
+            0.59375,
+            0.10555555555555556
+          ],
+          "size": 35.25,
+          "color": "#263D38",
+          "font": "Arial",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "01",
+          "box": [
+            0.05625,
+            0.30972222222222223,
+            0.0484375,
+            0.06111111111111111
+          ],
+          "size": 18.75,
+          "color": "#667D52",
+          "font": "Arial",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Know your audience",
+          "box": [
+            0.1109375,
+            0.3055555555555556,
+            0.41015625,
+            0.06666666666666667
+          ],
+          "size": 24.0,
+          "color": "#263D38",
+          "font": "Arial",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Understand their background and needs",
+          "box": [
+            0.1109375,
+            0.3736111111111111,
+            0.4140625,
+            0.059722222222222225
+          ],
+          "size": 17.25,
+          "color": "#536359",
+          "font": "Arial",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "text": "02",
+          "box": [
+            0.05625,
+            0.4777777777777778,
+            0.0484375,
+            0.06111111111111111
+          ],
+          "size": 18.75,
+          "color": "#667D52",
+          "font": "Arial",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Choose the key points",
+          "box": [
+            0.1109375,
+            0.4736111111111111,
+            0.41015625,
+            0.06666666666666667
+          ],
+          "size": 24.0,
+          "color": "#263D38",
+          "font": "Arial",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Give each slide one central message",
+          "box": [
+            0.1109375,
+            0.5416666666666666,
+            0.4140625,
+            0.059722222222222225
+          ],
+          "size": 17.25,
+          "color": "#536359",
+          "font": "Arial",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "text": "03",
+          "box": [
+            0.05625,
+            0.6458333333333334,
+            0.0484375,
+            0.06111111111111111
+          ],
+          "size": 18.75,
+          "color": "#667D52",
+          "font": "Arial",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Use concrete examples",
+          "box": [
+            0.1109375,
+            0.6416666666666667,
+            0.41015625,
+            0.06666666666666667
+          ],
+          "size": 24.0,
+          "color": "#263D38",
+          "font": "Arial",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Connect abstract ideas to familiar situations",
+          "box": [
+            0.1109375,
+            0.7097222222222223,
+            0.4140625,
+            0.059722222222222225
+          ],
+          "size": 17.25,
+          "color": "#536359",
+          "font": "Arial",
+          "bold": false
+        }
+      ],
+      "notes": "Style demo: friendly-clay, en. AI background; independently editable native text."
+    },
+    {
+      "background": "backgrounds/cinematic-dark.png",
+      "elements": [
+        {
+          "type": "text",
+          "text": "Prepare a research talk",
+          "box": [
+            0.0546875,
+            0.10833333333333334,
+            0.59375,
+            0.10555555555555556
+          ],
+          "size": 35.25,
+          "color": "#F5F4ED",
+          "font": "Arial",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "01",
+          "box": [
+            0.05625,
+            0.30972222222222223,
+            0.0484375,
+            0.06111111111111111
+          ],
+          "size": 18.75,
+          "color": "#6ED8D0",
+          "font": "Arial",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Know your audience",
+          "box": [
+            0.1109375,
+            0.3055555555555556,
+            0.41015625,
+            0.06666666666666667
+          ],
+          "size": 24.0,
+          "color": "#F5F4ED",
+          "font": "Arial",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Understand their background and needs",
+          "box": [
+            0.1109375,
+            0.3736111111111111,
+            0.4140625,
+            0.059722222222222225
+          ],
+          "size": 17.25,
+          "color": "#B5C6D4",
+          "font": "Arial",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "text": "02",
+          "box": [
+            0.05625,
+            0.4777777777777778,
+            0.0484375,
+            0.06111111111111111
+          ],
+          "size": 18.75,
+          "color": "#6ED8D0",
+          "font": "Arial",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Choose the key points",
+          "box": [
+            0.1109375,
+            0.4736111111111111,
+            0.41015625,
+            0.06666666666666667
+          ],
+          "size": 24.0,
+          "color": "#F5F4ED",
+          "font": "Arial",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Give each slide one central message",
+          "box": [
+            0.1109375,
+            0.5416666666666666,
+            0.4140625,
+            0.059722222222222225
+          ],
+          "size": 17.25,
+          "color": "#B5C6D4",
+          "font": "Arial",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "text": "03",
+          "box": [
+            0.05625,
+            0.6458333333333334,
+            0.0484375,
+            0.06111111111111111
+          ],
+          "size": 18.75,
+          "color": "#6ED8D0",
+          "font": "Arial",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Use concrete examples",
+          "box": [
+            0.1109375,
+            0.6416666666666667,
+            0.41015625,
+            0.06666666666666667
+          ],
+          "size": 24.0,
+          "color": "#F5F4ED",
+          "font": "Arial",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Connect abstract ideas to familiar situations",
+          "box": [
+            0.1109375,
+            0.7097222222222223,
+            0.4140625,
+            0.059722222222222225
+          ],
+          "size": 17.25,
+          "color": "#B5C6D4",
+          "font": "Arial",
+          "bold": false
+        }
+      ],
+      "notes": "Style demo: cinematic-dark, en. AI background; independently editable native text."
+    }
+  ]
+}
