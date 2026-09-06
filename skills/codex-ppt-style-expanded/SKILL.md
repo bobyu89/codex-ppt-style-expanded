@@ -3,7 +3,7 @@ name: codex-ppt-style-expanded
 description: Create multi-style PowerPoint decks with AI-generated backgrounds and independently editable text. Use for audience-aware slide planning, Image 2 style expansion, up to five comparable style samples, editable draw.io flowcharts, and PPTX production.
 ---
 
-# 多風格可編輯 PPT
+# SlideWeave｜圖敘簡報
 
 衍生自 ningzimu/codex-ppt-skill 的內容、大綱、樣張、逐頁檢查流程，結合 freestylefly/awesome-gpt-image-2 的風格與提示詞索引。這是獨立衍生版；不需要先安裝兩個上游 Skill。來源版本與授權見 [SOURCES.md](SOURCES.md)。
 

@@ -1,4 +1,4 @@
 interface:
-  display_name: "多風格可編輯 PPT"
+  display_name: "SlideWeave｜圖敘簡報"
   short_description: "依受眾推薦多種簡報風格，以 AI 背景搭配可獨立修改文字，先看樣張再製作"
   default_prompt: "請使用 $codex-ppt-style-expanded，依我的受眾與內容推薦最多五種風格，製作可編輯樣張供比較，再完成 PPT。"
