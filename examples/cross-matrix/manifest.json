@@ -1,0 +1,148 @@
+[
+  {
+    "id": "research-handdrawn",
+    "context": "research",
+    "style": "handdrawn",
+    "texts": [
+      "研究顯示：主張—證據組理解較佳",
+      "110 位工程學生的技術簡報比較研究",
+      "常見條列式",
+      "主張—證據式",
+      "內容理解較佳",
+      "錯誤概念較少",
+      "自評認知負荷較低",
+      "示意圖，非研究數值",
+      "圖像為示意；結果限於該研究情境，本頁未呈現效果量。",
+      "Garner & Alley (2013), IJEE 29(6), 1564–1579"
+    ],
+    "narration": "這項研究比較了一百一十位工程學生觀看不同投影片結構後的學習表現。主張—證據組在理解、錯誤概念與自評認知負荷上呈現較好的結果。這裡只摘要結果方向，不代表我們可以把效果量或結論推廣到所有研究場合。",
+    "advance_seconds": null,
+    "source": "https://pure.psu.edu/en/publications/how-the-design-of-presentation-slides-affects-audience-comprehens/"
+  },
+  {
+    "id": "research-scientific",
+    "context": "research",
+    "style": "scientific",
+    "texts": [
+      "研究顯示：主張—證據組理解較佳",
+      "110 位工程學生｜結果方向摘要",
+      "投影片結構比較",
+      "示意圖，非研究數值",
+      "圖像為示意；結果限於該研究情境，本頁未呈現效果量。",
+      "Garner & Alley (2013), IJEE 29(6), 1564–1579"
+    ],
+    "narration": "這項研究比較了一百一十位工程學生觀看不同投影片結構後的學習表現。主張—證據組在理解、錯誤概念與自評認知負荷上呈現較好的結果。這裡只摘要結果方向，不代表我們可以把效果量或結論推廣到所有研究場合。",
+    "advance_seconds": null,
+    "source": "https://pure.psu.edu/en/publications/how-the-design-of-presentation-slides-affects-audience-comprehens/"
+  },
+  {
+    "id": "research-magazine",
+    "context": "research",
+    "style": "magazine",
+    "texts": [
+      "主張—證據組",
+      "理解較佳",
+      "110 位工程學生的比較研究",
+      "內容理解",
+      "較佳",
+      "錯誤概念",
+      "較少",
+      "自評認知負荷",
+      "較低",
+      "圖像為示意；結果限於該研究情境，本頁未呈現效果量。",
+      "Garner & Alley (2013), IJEE 29(6), 1564–1579"
+    ],
+    "narration": "這項研究比較了一百一十位工程學生觀看不同投影片結構後的學習表現。主張—證據組在理解、錯誤概念與自評認知負荷上呈現較好的結果。這裡只摘要結果方向，不代表我們可以把效果量或結論推廣到所有研究場合。",
+    "advance_seconds": null,
+    "source": "https://pure.psu.edu/en/publications/how-the-design-of-presentation-slides-affects-audience-comprehens/"
+  },
+  {
+    "id": "teaching-handdrawn",
+    "context": "teaching",
+    "style": "handdrawn",
+    "texts": [
+      "一頁一個主張，下面放證據",
+      "寫主張",
+      "挑證據",
+      "刪雜訊",
+      "用一句話說明發現",
+      "用圖表或案例支持",
+      "移除不支持主張的內容",
+      "先讓標題說清楚，再讓圖像幫忙解釋"
+    ],
+    "narration": "製作研究簡報可以先做三件事。第一，用一句話說清楚這一頁的主要發現。第二，找出能支持它的圖表、案例或原始證據。第三，刪掉不支援這個訊息的內容。圖像的作用是幫助理解，不是填滿空間。",
+    "advance_seconds": null,
+    "source": "https://researcher.tw/articles/conference-talk-slide-craft/"
+  },
+  {
+    "id": "teaching-scientific",
+    "context": "teaching",
+    "style": "scientific",
+    "texts": [
+      "一頁一個主張，下面放證據",
+      "主題式標題",
+      "主張＋視覺證據",
+      "研究結果",
+      "用一句話說明主要發現",
+      "寫出主張 → 挑出證據 → 刪除雜訊"
+    ],
+    "narration": "製作研究簡報可以先做三件事。第一，用一句話說清楚這一頁的主要發現。第二，找出能支持它的圖表、案例或原始證據。第三，刪掉不支援這個訊息的內容。圖像的作用是幫助理解，不是填滿空間。",
+    "advance_seconds": null,
+    "source": "https://researcher.tw/articles/conference-talk-slide-craft/"
+  },
+  {
+    "id": "teaching-magazine",
+    "context": "teaching",
+    "style": "magazine",
+    "texts": [
+      "一頁",
+      "一個主張",
+      "01  寫主張",
+      "用一句話說明發現",
+      "02  挑證據",
+      "用圖表或案例支持",
+      "03  刪雜訊",
+      "移除不支持主張的內容",
+      "下面放證據",
+      "先讓標題說清楚，再讓圖像幫忙解釋"
+    ],
+    "narration": "製作研究簡報可以先做三件事。第一，用一句話說清楚這一頁的主要發現。第二，找出能支持它的圖表、案例或原始證據。第三，刪掉不支援這個訊息的內容。圖像的作用是幫助理解，不是填滿空間。",
+    "advance_seconds": null,
+    "source": "https://researcher.tw/articles/conference-talk-slide-craft/"
+  },
+  {
+    "id": "pecha-handdrawn",
+    "context": "pecha",
+    "style": "handdrawn",
+    "texts": [
+      "先讓聽眾看見重點"
+    ],
+    "narration": "聽眾第一次接觸你的研究，不知道哪裡最重要。先用一句話說清楚這頁的重點，再讓圖像把注意力帶到那裡。這二十秒，只留下你最希望他記住的一件事。",
+    "advance_seconds": 20,
+    "source": "https://researcher.tw/articles/conference-talk-slide-craft/"
+  },
+  {
+    "id": "pecha-scientific",
+    "context": "pecha",
+    "style": "scientific",
+    "texts": [
+      "先讓聽眾看見重點"
+    ],
+    "narration": "聽眾第一次接觸你的研究，不知道哪裡最重要。先用一句話說清楚這頁的重點，再讓圖像把注意力帶到那裡。這二十秒，只留下你最希望他記住的一件事。",
+    "advance_seconds": 20,
+    "source": "https://researcher.tw/articles/conference-talk-slide-craft/"
+  },
+  {
+    "id": "pecha-magazine",
+    "context": "pecha",
+    "style": "magazine",
+    "texts": [
+      "先讓聽眾",
+      "看見",
+      "重點"
+    ],
+    "narration": "聽眾第一次接觸你的研究，不知道哪裡最重要。先用一句話說清楚這頁的重點，再讓圖像把注意力帶到那裡。這二十秒，只留下你最希望他記住的一件事。",
+    "advance_seconds": 20,
+    "source": "https://researcher.tw/articles/conference-talk-slide-craft/"
+  }
+]

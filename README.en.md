@@ -1,126 +1,83 @@
-# Multi-style editable PPT
+# Multi-style Editable PPT
 
 [繁體中文](README.md) · [English](README.en.md)
 
-**Understand the audience, compare visual directions, and create AI backgrounds with independently editable PowerPoint text.**
+**Understand the audience, compare real samples, then build the deck. AI illustrations and native editable text form an integrated slide.**
 
-An independent Codex skill derived from the outline, sample-review and slide-QA workflow in [codex-ppt-skill](https://github.com/ningzimu/codex-ppt-skill), extended with the style index and prompt templates from [awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2).
+An independent skill derived from [codex-ppt-skill](https://github.com/ningzimu/codex-ppt-skill), extended with the style index and prompt templates from [awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2).
 
-## Real examples
+## Nine cross-style examples
 
-These examples use the same content in three styles. Each image is **rendered from the editable PPTX**. The text is a native PowerPoint layer, separate from the generated background.
+The shared topic is “Communicating research clearly.” Each context uses the same core content across three styles, with distinct compositions and typography. Slide content is in Traditional Chinese.
 
-### Clinical clarity
+| Context | Handdrawn technical | Scientific defense | Creative magazine |
+|---|---|---|---|
+| Research: evidence summary | ![research handdrawn](examples/cross-matrix/previews/research-handdrawn.png) | ![research scientific](examples/cross-matrix/previews/research-scientific.png) | ![research magazine](examples/cross-matrix/previews/research-magazine.png) |
+| Teaching: three steps | ![teaching handdrawn](examples/cross-matrix/previews/teaching-handdrawn.png) | ![teaching scientific](examples/cross-matrix/previews/teaching-scientific.png) | ![teaching magazine](examples/cross-matrix/previews/teaching-magazine.png) |
+| PechaKucha: 20-second sample | ![pecha handdrawn](examples/cross-matrix/previews/pecha-handdrawn.png) | ![pecha scientific](examples/cross-matrix/previews/pecha-scientific.png) | ![pecha magazine](examples/cross-matrix/previews/pecha-magazine.png) |
 
-For professional education, healthcare proposals and research talks. Light space, restrained teal and translucent glass.
+[Download the editable nine-slide PPTX](examples/cross-matrix/cross-matrix.pptx) · [Example notes and rebuilding](examples/cross-matrix/README.md) · [Text-free backgrounds](examples/cross-matrix/backgrounds/) · [Generation prompts](examples/cross-matrix/prompts.json)
 
-![Clinical clarity: Prepare a research talk](examples/previews/clinical-calm-en.png)
+Slides 1–3 summarize research evidence; slides 4–6 explain a teaching concept; slides 7–9 demonstrate PechaKucha pacing with 20-second automatic advances. This comparison deck is not a complete 20×20 presentation.
 
-### Soft 3D clay
+## Workflow
 
-For introductory lessons and concept explanations. Warm cream, sage green and tactile clay.
+1. Establish topic, audience, prior knowledge, purpose, duration, language and sources.
+2. Choose context, pacing and visual style separately. A research talk can use handdrawn or editorial visuals.
+3. Recommend three directions by default, never more than five per round; compare actual slides using the same content.
+4. After selection, build the deck with native text, evidence tables where needed, and speaker notes.
+5. Render and review readability, factual support, layout and timing.
 
-![Soft 3D clay: Prepare a research talk](examples/previews/friendly-clay-en.png)
+Research mode draws on [these conference-talk principles](https://researcher.tw/articles/conference-talk-slide-craft/): a central message, assertions supported by evidence, time allocation and backup slides. The research examples summarize [Garner & Alley (2013)](https://pure.psu.edu/en/publications/how-the-design-of-presentation-slides-affects-audience-comprehens/) without inventing effect sizes. Slide 2 contains a native editable table. A complete PechaKucha uses [20 slides × 20 seconds](https://www.pechakucha.com/about) and needs rehearsal.
 
-### Cinematic dark
+## Install and use
 
-For talks, vision presentations and launches. Deep blue-black, cyan light and controlled contrast.
-
-![Cinematic dark: Prepare a research talk](examples/previews/cinematic-dark-en.png)
-
-[Download the six-slide editable PPTX (Traditional Chinese + English)](examples/style-samples.pptx) · [Text-free backgrounds](examples/backgrounds/) · [Full generation prompts](examples/prompts.json)
-
-The backgrounds were generated with Codex's built-in `image_gen` tool. The tool did not disclose the exact model, so these images are not labeled as verified GPT Image 2 outputs. The skill supports an Image 2 workflow; use a backend that exposes model identity when exact model selection is required.
-
-## Capabilities
-
-- Plan for the audience, prior knowledge, purpose, duration and information density.
-- Explore 12 upstream PPT references, 12 additional deck recipes and 22 image-template entries.
-- Recommend three directions by default, with no more than five per comparison round.
-- Generate comparable samples from the same content before producing the full deck, unless the user has already authorized autonomous selection.
-- Keep headings, body copy, citations and page numbers as native text; replace backgrounds independently.
-- Preserve specifications, prompts, backgrounds and build inputs for later editing.
-
-The 24 directions are 12 original references plus 12 derived recipes, with some aesthetic overlap. Three have real examples here; this is not a collection of 24 finished PowerPoint master templates.
-
-## Installation
-
-Give Codex this request:
+Ask Codex:
 
 ```text
-Install the skill at skills/codex-ppt-style-expanded from
+Install skills/codex-ppt-style-expanded from
 https://github.com/bobyu89/codex-ppt-style-expanded.
 Back up any existing skill with the same name and preserve my custom styles.
 ```
 
-Alternatively, download this repository and copy the entire `skills/codex-ppt-style-expanded` folder to your Codex skills directory. For project-local use, place it inside that project's `.agents/skills/`. Invoke `$codex-ppt-style-expanded` in a new task.
-
-## Usage
+Alternatively, copy `skills/codex-ppt-style-expanded` into your Codex skills directory or the project's `.agents/skills/` directory.
 
 ```text
-Use $codex-ppt-style-expanded to turn this document into a 10-slide deck
-for first-year graduate students, for a 15-minute lesson.
-Recommend three styles and create samples using the same content.
-Use Image 2 backgrounds and keep all text editable.
-Wait for my style choice before building the full deck.
+Use $codex-ppt-style-expanded to create a 10-minute research talk
+for new graduate students from the attached material.
+Compare handdrawn technical, scientific defense and creative magazine styles.
+Use Image 2 for backgrounds, keeping text and evidence tables editable.
+Wait for my style selection before completing the deck.
 ```
 
 ```text
-Use $codex-ppt-style-expanded to compare clinical clarity, soft 3D clay
-and cinematic dark for a research talk. Keep the sample content identical.
-Let me combine the palette of one option with the illustration treatment of another.
+Use $codex-ppt-style-expanded for a research-story PechaKucha:
+20 slides, 20 seconds each. Plan the story and narration first,
+then compare three visual styles.
 ```
 
-Workflow: **understand the brief → outline → shortlist up to five styles → build real samples → agree on a design → produce and inspect each slide**.
+## Style expansion and tools
 
-## Additional recipes
+Includes 12 upstream references, [12 additional recipes](skills/codex-ppt-style-expanded/references/styles.json), and 22 Image 2 template entries. These are design directions, not 24 finished PowerPoint masters. The main gallery shows nine examples using three upstream styles.
 
-| ID | Style | Typical use |
-|---|---|---|
-| `clinical-calm` | Clinical clarity | Healthcare, professional education |
-| `academic-editorial` | Academic editorial | Research, papers, defense talks |
-| `friendly-clay` | Soft 3D clay | Introductory lessons, concepts |
-| `japanese-paper` | Japanese paper | Humanities, warm brand stories |
-| `premium-brand` | Premium branding | Formal proposals, brand identity |
-| `futuristic-light` | Bright future tech | AI, platforms, engineering |
-| `cinematic-dark` | Cinematic dark | Talks, vision, launches |
-| `nature-science` | Nature science | Ecology, environment, education |
-| `ink-humanities` | Ink humanities | Culture, history, art |
-| `architectural-space` | Architectural space | Cities, spaces, design |
-| `documentary-photo` | Documentary photography | Social topics, illustrative cases |
-| `bold-poster` | Bold poster | Events, talks, key messages |
-
-Edit [styles.json](skills/codex-ppt-style-expanded/references/styles.json) to add a recipe with its audience, palette, material, layout, `template_id` and background prompt. The [style expansion guide](skills/codex-ppt-style-expanded/references/style-expansion.md) contains layout and safe-zone guidance. Skill instructions and detailed references are primarily in Chinese; the agent should respond in the user's language.
-
-## Local tools
-
-Style discovery only needs Python:
+- [Style expansion guide](skills/codex-ppt-style-expanded/references/style-expansion.md)
+- [Research, teaching and PechaKucha rules](skills/codex-ppt-style-expanded/references/presentation-modes.md)
+- [Basic assembler and data format](skills/codex-ppt-style-expanded/references/production.md)
+- [Earlier background and palette experiments](examples/README.md)
 
 ```bash
 python -X utf8 skills/codex-ppt-style-expanded/scripts/search_styles.py --list
-python -X utf8 skills/codex-ppt-style-expanded/scripts/search_styles.py --query "education 3D" --limit 5
-python -X utf8 skills/codex-ppt-style-expanded/scripts/search_styles.py --show friendly-clay
+python -X utf8 skills/codex-ppt-style-expanded/scripts/search_styles.py --query "medical teaching" --limit 5
 ```
 
-The basic PPTX assembler requires `python-pptx`:
+## Editability and limitations
 
-```bash
-python -m pip install -r requirements.txt
-python skills/codex-ppt-style-expanded/scripts/assemble_editable.py deck.json deck.pptx
-```
+- Titles, explanations and citations are native editable text. Background illustrations remain raster images.
+- AI visuals illustrate concepts; they do not replace measured evidence.
+- Backgrounds were generated with the built-in `image_gen` tool, which does not expose its exact model. These examples are not claimed as verified GPT Image 2 outputs.
+- PPTX structure, native text, table, timing and rendered slides were reviewed. Desktop PowerPoint/Google Slides compatibility and live timed rehearsal have not been tested.
+- GitHub images are previews; download the PPTX to edit.
 
-It supports text, rectangles, images and speaker notes. See the [production reference](skills/codex-ppt-style-expanded/references/production.md) for the JSON format. It is not a complete chart or automatic layout engine. The example PPTX was authored with Codex's Artifact Tool; see [examples](examples/README.md) for source and portable content data.
+## Attribution and license
 
-## Editability and limits
-
-- Native text remains editable; objects inside a generated background remain raster content.
-- Preserve charts, tables and evidence as native objects or original assets. Do not invent data through image generation.
-- Image generation requires an available tool. Render the final PPTX to check fonts, overflow and contrast.
-- The examples passed structural checks, native-text verification and inspection of every rendered slide. They have not been tested in desktop PowerPoint or Google Slides.
-- GitHub previews are static images. Download the PPTX to edit the text.
-
-## Credits and license
-
-Thanks to [ningzimu/codex-ppt-skill](https://github.com/ningzimu/codex-ppt-skill) and [freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2). This is an independent derivative, not an official upstream release.
-
-Project code and text are available under the [MIT License](LICENSE). Original upstream notices are preserved in [licenses](skills/codex-ppt-style-expanded/licenses/); pinned versions and changes are recorded in [SOURCES.md](skills/codex-ppt-style-expanded/SOURCES.md). Example backgrounds were generated for this project. Upstream gallery images are not redistributed.
+Code and text use the [MIT License](LICENSE). Upstream licenses are preserved in [licenses](skills/codex-ppt-style-expanded/licenses/); see [SOURCES.md](skills/codex-ppt-style-expanded/SOURCES.md) for versions and adaptations. Example backgrounds are newly generated; upstream gallery images are not bundled.

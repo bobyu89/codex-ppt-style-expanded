@@ -12,3 +12,5 @@ MIT 原始授權全文保留於 licenses/。案例圖片未隨包分發；如要
 本版新增：繁中主流程、12 種簡報配方、離線檢索、最多五種同內容樣張比較、無字背景與原生文字分層、基本 PPTX 組裝器及重建格式。
 
 改寫差異：原版以整頁圖片為產物；本版以可編輯文字為預設。原版的全圖片與禁止文字疊加規則不沿用；多代理不列為製作必要條件。完整案例網站與 API 供應商程式未包含在本套件。
+
+新增交叉樣張：研究、教學、PechaKucha 三情境 × 手繪技術圖解、科學研究、創意雜誌三風格。簡報模式參考 https://researcher.tw/articles/conference-talk-slide-craft/ 與 https://www.pechakucha.com/about；研究樣張資料來源為 Garner & Alley (2013), https://pure.psu.edu/en/publications/how-the-design-of-presentation-slides-affects-audience-comprehens/ 。上述文章與論文以摘要及引用使用，未複製全文。
