@@ -1,6 +1,6 @@
 ---
 name: codex-ppt-style-expanded
-description: Create multi-style PowerPoint decks with AI-generated backgrounds and independently editable text. Use for audience-aware slide planning, Image 2 style expansion, up to five comparable style samples, and PPTX production.
+description: Create multi-style PowerPoint decks with AI-generated backgrounds and independently editable text. Use for audience-aware slide planning, Image 2 style expansion, up to five comparable style samples, editable draw.io flowcharts, and PPTX production.
 ---
 
 # 多風格可編輯 PPT
@@ -18,6 +18,7 @@ description: Create multi-style PowerPoint decks with AI-generated backgrounds a
 ## 工作流程
 
 ### 1. 理解任務
+先依 [references/conversation-intake.md](references/conversation-intake.md) 做輕量需求訪談：沿用已知答案，先釐清用途、受眾、時間、素材與真實身份背景，再給內容判斷與風格建議。此流程參考 ppt-image-first 的提問方法，不沿用其全頁圖片或強制確認關卡。
 讀取 [references/presentation-modes.md](references/presentation-modes.md)，將使用情境、時間格式與視覺風格分開設定。研究模式與 PechaKucha 可以組合；樣張不冒充完整限時簡報。
 讀取來源，整理主題、受眾、先備知識、溝通目標、時間/頁數、投影或閱讀、語言、品牌限制、必須保留的素材。沿用已知答案；每輪最多三個必要問題，避免每個階段重複要求確認。使用者只有主題時，先給合理假設與初步大綱。
 
@@ -37,6 +38,7 @@ description: Create multi-style PowerPoint decks with AI-generated backgrounds a
 保存 `samples/<style-id>/` 下的背景、PPTX、渲染圖與 prompt。展示預覽，請使用者選擇或描述調整；此時尚未授權的整套製作等待回覆。若使用者已明確授權自選風格完成整套，直接選擇並記錄理由。
 
 ### 4. 鎖定規格與逐頁製作
+內容含流程、分支、泳道或系統架構時，讀取 [references/flowcharts.md](references/flowcharts.md)，使用內建 `vendor/drawio-skill/` 產出可編輯 `.drawio`。依需求選擇 PPT 圖片置入或原生節點重建，清楚記錄可編輯層級；不要用 AI 圖生成正式流程標籤。
 讀取 [references/production.md](references/production.md)。把選定配色、字體、版型、背景材質、文字安全區、樣張路径及實際生圖後端記入 `design-spec.json`。記錄混搭的具體規則，例如只採 B 的插畫，不把多個完整風格隨機混用。
 
 依每頁角色改變版型，保持同一視覺語言。背景與文字共用座標規劃，先規劃整頁的圖文敘事、流程或比較，再生圖並加入原生文字。插畫、箭頭與標籤應共同解釋內容，文字可散佈於對應節點，不強制左側留白。單頁修改只重製受影響的素材或文字；不要重生整份簡報。
@@ -51,3 +53,5 @@ description: Create multi-style PowerPoint decks with AI-generated backgrounds a
 - `scripts/search_styles.py`：查原始 11 種 PPT 風格、衍生配方和 Image 2 模板；支援 `--list`、`--show ID`。
 - `scripts/assemble_editable.py`：基本原生文字/形狀/圖片/備註組裝器，輸入規格見 production.md。需 Python 與 python-pptx。資料圖表等超出此組裝器的頁面，使用環境既有 PPT 工具建立原生物件，不轉成圖片冒充可編輯。
 - 生圖、參考圖片檢視和 PPT 渲染使用當前環境可用工具；遵循該環境的工具與 Skill 要求。沒有生圖或渲染能力時準確報告限制。
+
+- 內建 draw.io：`vendor/drawio-skill/scripts/diagramctl.py`（環境檢查、IR、同步等）與 `validate.py`（結構檢查）。匯出需要 draw.io CLI；未自動註冊 MCP。

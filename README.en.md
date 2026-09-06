@@ -77,6 +77,28 @@ Slides 1–3 summarize research evidence; slides 4–6 explain a teaching concep
 
 Research mode draws on [these conference-talk principles](https://researcher.tw/articles/conference-talk-slide-craft/): a central message, assertions supported by evidence, time allocation and backup slides. The research examples summarize [Garner & Alley (2013)](https://pure.psu.edu/en/publications/how-the-design-of-presentation-slides-affects-audience-comprehens/) without inventing effect sizes. Slide 2 contains a native editable table. A complete PechaKucha uses [20 slides × 20 seconds](https://www.pechakucha.com/about) and needs rehearsal.
 
+## Built-in diagrams and conversation-first intake
+
+A pinned copy of [Agents365-ai/drawio-skill](https://github.com/Agents365-ai/drawio-skill) is included inside this skill. Build research workflows, decisions, architecture and swimlanes with editable `.drawio` nodes, text and edges.
+
+![Intake to style samples](examples/flowchart/intake-flow.svg)
+
+[Editable diagram example](examples/flowchart/README.md) · [Diagram integration rules](skills/codex-ppt-style-expanded/references/flowcharts.md)
+
+The preview is an independent SVG built from the same node model. The `.drawio` passed structural validation; this environment has no draw.io CLI, so native export/rendering has not been checked. Core XML/IR tools use Python; native image export needs draw.io. No desktop program or MCP registration is installed automatically.
+
+**Editability:** a diagram image inside PPT is edited through its `.drawio` source. If PowerPoint-level editing is requested, recreate nodes with native shapes, text and connectors. The upstream `drawio2pptx` inserts images; it does not convert nodes into native PowerPoint objects.
+
+Intake is adapted from [NyxTides/ppt-image-first](https://github.com/NyxTides/ppt-image-first): start with purpose, audience, duration, materials and real institutional/brand context. Give a content assessment before discussing brightness, formality and sample count. Reuse known answers, avoid a long questionnaire, retain native text and the five-direction-per-round limit.
+
+[Intake guide (Traditional Chinese)](skills/codex-ppt-style-expanded/references/conversation-intake.md)
+
+```text
+Use $codex-ppt-style-expanded to turn my research methods into slides and a flowchart.
+Clarify audience, duration and available material, then propose the narrative and three styles.
+Deliver the .drawio source and independently editable text and flowchart nodes in PowerPoint.
+```
+
 ## Install and use
 
 Ask Codex:
@@ -127,4 +149,4 @@ python -X utf8 skills/codex-ppt-style-expanded/scripts/search_styles.py --query 
 
 ## Attribution and license
 
-Code and text use the [MIT License](LICENSE). Upstream licenses are preserved in [licenses](skills/codex-ppt-style-expanded/licenses/); see [SOURCES.md](skills/codex-ppt-style-expanded/SOURCES.md) for versions and adaptations. Example backgrounds are newly generated; upstream gallery images are not bundled.
+Original code and text use the [MIT License](LICENSE). The bundled drawio-skill retains MIT; the intake document adapted from ppt-image-first retains Apache-2.0 attribution and licensing. Upstream licenses are preserved in [licenses](skills/codex-ppt-style-expanded/licenses/); see [SOURCES.md](skills/codex-ppt-style-expanded/SOURCES.md) for versions and adaptations. Example backgrounds are newly generated; upstream gallery images are not bundled.

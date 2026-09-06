@@ -77,6 +77,28 @@ bauhaus-geometric、technical-blueprint、neo-brutalist。
 
 研究模式參考[研究簡報文章](https://researcher.tw/articles/conference-talk-slide-craft/)，強調核心訊息、主張與證據、時間分配及附錄。範例研究結果來自 [Garner & Alley (2013)](https://pure.psu.edu/en/publications/how-the-design-of-presentation-slides-affects-audience-comprehens/)，只摘要結果方向，不捏造效果量；第二頁使用可編輯原生表格。完整 PechaKucha 依 [20 張 × 20 秒](https://www.pechakucha.com/about)製作，並需要試講。
 
+## 內建流程圖與需求訪談
+
+已內含 [Agents365-ai/drawio-skill](https://github.com/Agents365-ai/drawio-skill) 的固定版本，安裝本 Skill 即包含流程圖工具與參考檔。可建立研究流程、判斷分支、系統架構與泳道圖，保留節點、文字及連線可修改的 `.drawio` 原始檔。
+
+![需求到風格樣張](examples/flowchart/intake-flow.svg)
+
+[可編輯流程範例](examples/flowchart/README.md) · [流程圖製作規則](skills/codex-ppt-style-expanded/references/flowcharts.md)
+
+上圖為同一份節點資料產生的 SVG 預覽；`.drawio` 已通過結構檢查。本環境未安裝 draw.io CLI，因此尚未以該程式匯出或檢查渲染。核心 XML／IR 工具可使用 Python；原生圖片匯出另需 draw.io，沒有自動安裝桌面程式或 MCP。
+
+**可編輯層級**：將流程圖圖片放入 PPT 時，要回 draw.io 修改節點；需要在 PowerPoint 直接改節點時，製作流程會使用原生形狀、文字與連接線。上游 `drawio2pptx` 是圖片置入工具，不能當成原生節點轉換器。
+
+需求訪談參考 [NyxTides/ppt-image-first](https://github.com/NyxTides/ppt-image-first)：先了解用途、受眾、時間、素材與學校／公司／實驗室背景，整理內容判斷後才談明暗、正式程度與樣張數量。沿用已知答案，不把第一輪變成長問卷；仍保留原生文字及每輪最多五種風格的規則。
+
+[查看繁中訪談指引](skills/codex-ppt-style-expanded/references/conversation-intake.md)
+
+```text
+請使用 $codex-ppt-style-expanded，將我的研究方法整理成簡報與流程圖。
+先確認對象、時間與現有素材，再提出內容結構及三種風格樣張。
+流程圖保留 .drawio 原始檔；PPT 內的文字與流程節點也要能獨立修改。
+```
+
 ## 安裝與使用
 
 把以下提示詞交給 Codex：
@@ -126,4 +148,4 @@ python -X utf8 skills/codex-ppt-style-expanded/scripts/search_styles.py --query 
 
 ## 來源與授權
 
-程式與文字採 [MIT License](LICENSE)。上游授權保留於 [licenses](skills/codex-ppt-style-expanded/licenses/)，版本與改寫範圍見 [SOURCES.md](skills/codex-ppt-style-expanded/SOURCES.md)。範例背景為新生成素材，未隨包分發上游案例圖片。
+本專案原創程式與文字採 [MIT License](LICENSE)；drawio-skill 保留 MIT 授權，參考 ppt-image-first 改寫的訪談文件依 Apache-2.0 授權及來源說明處理。上游授權保留於 [licenses](skills/codex-ppt-style-expanded/licenses/)，版本與改寫範圍見 [SOURCES.md](skills/codex-ppt-style-expanded/SOURCES.md)。範例背景為新生成素材，未隨包分發上游案例圖片。

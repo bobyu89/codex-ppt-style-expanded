@@ -21,3 +21,14 @@ MIT 原始授權全文保留於 licenses/。案例圖片未隨包分發；如要
 - 孟菲斯活力：https://slidesgo.com/theme/orange-memphis
 - 工程藍圖：https://www.slidescarnival.com/template/valentine-free-presentation-template/234
 - 新粗獷主義：https://slidesgo.com/brutalist
+
+## 流程圖與訪談整合（2026-09-06）
+
+| Source | Commit | Included / adaptation |
+|---|---|---|
+| https://github.com/Agents365-ai/drawio-skill | 65f5fa0505f43d8af104d00c6087cb02c8c0e2f3 | skills/drawio-skill 原檔置於 vendor/drawio-skill；MIT LICENSE 隨附，新增主流程整合規則 |
+| https://github.com/NyxTides/ppt-image-first | 87a300a559a2a55097fab337241218c6557bfa23 | 參考 references/conversation_framework.md 與 templates/spec_lock_reference.md，改寫為 references/conversation-intake.md；Apache-2.0 全文在 licenses/ppt-image-first-APACHE-2.0.txt |
+
+訪談修改內容：繁體中文、沿用已知答案、合併重複欄位、最多五種樣張、原生文字優先、流程圖問題，以及依既有授權繼續工作的規則。未沿用上游全頁圖片、禁止文字框、固定確認關卡、HTML 介面或多候選選圖程式。這是本專案修改版，不代表上游作者認可。
+
+draw.io 原始工具完整內含，但未自動設定 MCP、連線服務或安裝桌面依賴。已驗證此整合的環境偵測及基本流程 XML 驗證；未聲稱全部上游功能均在本環境測試。SVG 範例由本專案程式依節點資料建立，非原生 draw.io 匯出。
