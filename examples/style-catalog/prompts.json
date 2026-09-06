@@ -1,0 +1,42 @@
+{
+  "backend": "Built-in image_gen; exact model not exposed",
+  "purpose": "Visual style references, not editable PPT renders",
+  "jobs": [
+    {
+      "id": "academic-editorial",
+      "prompt": "Create a polished 16:9 landscape visual style reference for a presentation style catalog. Style: 學術期刊編輯. Materials: 紙張質感極淡，細線分區，少量概念視覺. Palette: FAFAF7, 202C3C, 365C85, D8DFE6. Composition concept: 研究問題、方法、結果以不同版型呈現，圖表區大面積留白. Theme: communicating ideas and research clearly. Show a purposeful composition with paper, knowledge, observation or conceptual objects suitable for this style, not a generic abstract wallpaper. No charts, quantitative evidence, medical anatomy, logos, readable text, letters or numerals. Leave intentional negative space suitable for later native slide text, but do not default to a left-text right-object arrangement. This is a text-free visual mood reference, not a finished slide. Art directed, coherent, distinctive. 不生成引用、公式、座標或假論文頁面"
+    },
+    {
+      "id": "japanese-paper",
+      "prompt": "Create a polished 16:9 landscape visual style reference for a presentation style catalog. Style: 日系和紙. Materials: 細緻和紙、柔和植物或日常物件、自然光. Palette: F7F3E9, 303B38, 778C75, B88461. Composition concept: 非對稱留白，章節頁安靜，內容頁清楚雙欄. Theme: communicating ideas and research clearly. Show a purposeful composition with paper, knowledge, observation or conceptual objects suitable for this style, not a generic abstract wallpaper. No charts, quantitative evidence, medical anatomy, logos, readable text, letters or numerals. Leave intentional negative space suitable for later native slide text, but do not default to a left-text right-object arrangement. This is a text-free visual mood reference, not a finished slide. Art directed, coherent, distinctive. 避免濃重紙紋、假日文字或装飾過多"
+    },
+    {
+      "id": "premium-brand",
+      "prompt": "Create a polished 16:9 landscape visual style reference for a presentation style catalog. Style: 精品典雅. Materials: 溫潤石材、細膩金屬與柔光，極少量點綴. Palette: F5F0E8, 302D29, 9D8055, D9CEC0. Composition concept: 大標題、低密度內容、比較頁克制網格. Theme: communicating ideas and research clearly. Show a purposeful composition with paper, knowledge, observation or conceptual objects suitable for this style, not a generic abstract wallpaper. No charts, quantitative evidence, medical anatomy, logos, readable text, letters or numerals. Leave intentional negative space suitable for later native slide text, but do not default to a left-text right-object arrangement. This is a text-free visual mood reference, not a finished slide. Art directed, coherent, distinctive. 不生成 Logo、品牌字樣或金色正文"
+    },
+    {
+      "id": "futuristic-light",
+      "prompt": "Create a polished 16:9 landscape visual style reference for a presentation style catalog. Style: 明亮未來科技. Materials: 白色空間、精密幾何、淡藍光與透明材質. Palette: F7FAFF, 182A45, 3D6BEB, D7E9F8. Composition concept: 架構頁用原生線條，內容頁非對稱，資料頁白底. Theme: communicating ideas and research clearly. Show a purposeful composition with paper, knowledge, observation or conceptual objects suitable for this style, not a generic abstract wallpaper. No charts, quantitative evidence, medical anatomy, logos, readable text, letters or numerals. Leave intentional negative space suitable for later native slide text, but do not default to a left-text right-object arrangement. This is a text-free visual mood reference, not a finished slide. Art directed, coherent, distinctive. 不生成假程式碼、規格數值或不可編輯架構標籤"
+    },
+    {
+      "id": "nature-science",
+      "prompt": "Create a polished 16:9 landscape visual style reference for a presentation style catalog. Style: 自然科普. Materials: 自然標本感、細膩植物攝影或科普插畫. Palette: F5F3E8, 263D31, 608662, C6A36A. Composition concept: 現象頁圖文並列，機制頁原生流程，資料頁留白. Theme: communicating ideas and research clearly. Show a purposeful composition with paper, knowledge, observation or conceptual objects suitable for this style, not a generic abstract wallpaper. No charts, quantitative evidence, medical anatomy, logos, readable text, letters or numerals. Leave intentional negative space suitable for later native slide text, but do not default to a left-text right-object arrangement. This is a text-free visual mood reference, not a finished slide. Art directed, coherent, distinctive. 不生成物種名稱、比例尺、數據或虛构精確解剖"
+    },
+    {
+      "id": "ink-humanities",
+      "prompt": "Create a polished 16:9 landscape visual style reference for a presentation style catalog. Style: 水墨人文. Materials: 克制水墨、淡遠山、少量朱紅，留白. Palette: F4F0E7, 242927, 8B4A3A, B8B4A6. Composition concept: 章節頁大留白，內容頁現代網格，時間線原生. Theme: communicating ideas and research clearly. Show a purposeful composition with paper, knowledge, observation or conceptual objects suitable for this style, not a generic abstract wallpaper. No charts, quantitative evidence, medical anatomy, logos, readable text, letters or numerals. Leave intentional negative space suitable for later native slide text, but do not default to a left-text right-object arrangement. This is a text-free visual mood reference, not a finished slide. Art directed, coherent, distinctive. 不生成書法、印章文字或讓墨塊遮擋內容"
+    },
+    {
+      "id": "architectural-space",
+      "prompt": "Create a polished 16:9 landscape visual style reference for a presentation style catalog. Style: 建築空間. Materials: 建築攝影、自然日光、幾何秩序、材質細節. Palette: F3F0EB, 32383C, 9A7758, C7D1D1. Composition concept: 封面空間大圖，案例圖文，方案比較兩欄. Theme: communicating ideas and research clearly. Show a purposeful composition with paper, knowledge, observation or conceptual objects suitable for this style, not a generic abstract wallpaper. No charts, quantitative evidence, medical anatomy, logos, readable text, letters or numerals. Leave intentional negative space suitable for later native slide text, but do not default to a left-text right-object arrangement. This is a text-free visual mood reference, not a finished slide. Art directed, coherent, distinctive. 不生成尺寸、標示或未經驗證的建築平面資訊"
+    },
+    {
+      "id": "documentary-photo",
+      "prompt": "Create a polished 16:9 landscape visual style reference for a presentation style catalog. Style: 紀實攝影. Materials: 自然攝影、真實生活氣氛、柔和景深. Palette: F9F7F3, 25333C, 427C87, D7C8B5. Composition concept: 照片聚焦單側，案例與引言留空白文字區. Theme: communicating ideas and research clearly. Show a purposeful composition with paper, knowledge, observation or conceptual objects suitable for this style, not a generic abstract wallpaper. No charts, quantitative evidence, medical anatomy, logos, readable text, letters or numerals. Leave intentional negative space suitable for later native slide text, but do not default to a left-text right-object arrangement. This is a text-free visual mood reference, not a finished slide. Art directed, coherent, distinctive. 生成照片標示為情境示意，不當作真實事件或個案證據"
+    },
+    {
+      "id": "bold-poster",
+      "prompt": "Create a polished 16:9 landscape visual style reference for a presentation style catalog. Style: 大字海報. Materials: 高對比色塊、幾何剪貼、邊緣裝飾. Palette: F9F4E8, 202020, E65F38, 387F87. Composition concept: 大字封面與核心句，內頁改用低密度網格. Theme: communicating ideas and research clearly. Show a purposeful composition with paper, knowledge, observation or conceptual objects suitable for this style, not a generic abstract wallpaper. No charts, quantitative evidence, medical anatomy, logos, readable text, letters or numerals. Leave intentional negative space suitable for later native slide text, but do not default to a left-text right-object arrangement. This is a text-free visual mood reference, not a finished slide. Art directed, coherent, distinctive. 不要生成人工字形、海報文案、標語或數字"
+    }
+  ]
+}

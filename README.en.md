@@ -6,6 +6,44 @@
 
 An independent skill derived from [codex-ppt-skill](https://github.com/ningzimu/codex-ppt-skill), extended with the style index and prompt templates from [awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2).
 
+## All 24 built-in styles
+
+Browse the images, then give Codex a style name or the exact ID shown below. These are 12 upstream references plus 12 derived recipes. The additional 22 image-prompt templates are supporting resources, not additional PPT styles.
+
+### 12 original styles
+
+The following images are the upstream author's original visual references, linked from a pinned [codex-ppt-skill version](https://github.com/ningzimu/codex-ppt-skill/tree/f2ed80372f65bb05fe62dd07979b239a17ac065d). They illustrate style only; they are not this project's editable PPT renders. Reference text is retained in its original language.
+
+| | |
+|---|---|
+| **Clean professional**<br>![Clean professional](https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/f2ed80372f65bb05fe62dd07979b239a17ac065d/assets/style-previews/clean-professional.png)<br>Business reports and proposals<br>Upstream reference · [規格 / Spec](skills/codex-ppt-style-expanded/references/upstream-ppt/清爽专业风.md)<br>`ppt:清爽专业风` | **Creative magazine**<br>![Creative magazine](https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/f2ed80372f65bb05fe62dd07979b239a17ac065d/assets/style-previews/creative-magazine.png)<br>Creative talks and brand stories<br>Upstream reference · [規格 / Spec](skills/codex-ppt-style-expanded/references/upstream-ppt/创意杂志风.md)<br>`ppt:创意杂志风` |
+| **E-ink magazine**<br>![E-ink magazine](https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/f2ed80372f65bb05fe62dd07979b239a17ac065d/assets/style-previews/e-ink-magazine.png)<br>Monochrome reading and editorial talks<br>Upstream reference · [規格 / Spec](skills/codex-ppt-style-expanded/references/upstream-ppt/电子墨水杂志风.md)<br>`ppt:电子墨水杂志风` | **Data dashboard**<br>![Data dashboard](https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/f2ed80372f65bb05fe62dd07979b239a17ac065d/assets/style-previews/data-dashboard.png)<br>Metrics, operations and comparisons<br>Upstream reference · [規格 / Spec](skills/codex-ppt-style-expanded/references/upstream-ppt/数据仪表盘风.md)<br>`ppt:数据仪表盘风` |
+| **Retro flat illustration**<br>![Retro flat illustration](https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/f2ed80372f65bb05fe62dd07979b239a17ac065d/assets/style-previews/retro-flat-illustration.png)<br>Science communication and concepts<br>Upstream reference · [規格 / Spec](skills/codex-ppt-style-expanded/references/upstream-ppt/复古扁平插画风.md)<br>`ppt:复古扁平插画风` | **Handdrawn technical**<br>![Handdrawn technical](https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/f2ed80372f65bb05fe62dd07979b239a17ac065d/assets/style-previews/handdrawn-technical.png)<br>Technical concepts, processes and teaching<br>Upstream reference · [規格 / Spec](skills/codex-ppt-style-expanded/references/upstream-ppt/手绘技术解释风.md)<br>`ppt:手绘技术解释风` |
+| **Handdrawn whiteboard**<br>![Handdrawn whiteboard](https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/f2ed80372f65bb05fe62dd07979b239a17ac065d/assets/style-previews/handdrawn-whiteboard.png)<br>Workshops, brainstorming and steps<br>Upstream reference · [規格 / Spec](skills/codex-ppt-style-expanded/references/upstream-ppt/手绘白板风.md)<br>`ppt:手绘白板风` | **Warm handmade**<br>![Warm handmade](https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/f2ed80372f65bb05fe62dd07979b239a17ac065d/assets/style-previews/warm-handmade.png)<br>Humanities, education and warm stories<br>Upstream reference · [規格 / Spec](skills/codex-ppt-style-expanded/references/upstream-ppt/温暖手工风.md)<br>`ppt:温暖手工风` |
+| **Scientific defense**<br>![Scientific defense](https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/f2ed80372f65bb05fe62dd07979b239a17ac065d/assets/style-previews/scientific-defense.png)<br>Thesis defense and research talks<br>Upstream reference · [規格 / Spec](skills/codex-ppt-style-expanded/references/upstream-ppt/科研答辩风.md)<br>`ppt:科研答辩风` | **Consulting style**<br>![Consulting style](https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/f2ed80372f65bb05fe62dd07979b239a17ac065d/assets/style-previews/mckinsey-style.png)<br>Strategy, decisions and business analysis<br>Upstream reference · [規格 / Spec](skills/codex-ppt-style-expanded/references/upstream-ppt/麦肯锡风格.md)<br>`ppt:麦肯锡风格` |
+| **Party/government red**<br>![Party/government red](https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/f2ed80372f65bb05fe62dd07979b239a17ac065d/assets/style-previews/party-government-red.png)<br>Formal policy and institutional reports<br>Upstream reference · [規格 / Spec](skills/codex-ppt-style-expanded/references/upstream-ppt/党政红风格.md)<br>`ppt:党政红风格` | **Teaching courseware**<br>![Teaching courseware](https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/f2ed80372f65bb05fe62dd07979b239a17ac065d/assets/style-previews/teaching-courseware.png)<br>Classes, training and structured lessons<br>Upstream reference · [規格 / Spec](skills/codex-ppt-style-expanded/references/upstream-ppt/教学课件风.md)<br>`ppt:教学课件风` |
+
+### 12 extended styles
+
+Three images below are existing editable PPT renders; nine are newly generated visual references showing materials, palette and composition. Visual references are not finished slides or editable PowerPoint masters. Documentary-style imagery is illustrative, not evidence of real events.
+
+| | |
+|---|---|
+| **Clinical calm**<br>![Clinical calm](examples/previews/clinical-calm-zh-TW.png)<br>Medical and professional education<br>Editable PPT preview · [規格 / Spec](skills/codex-ppt-style-expanded/references/styles.json)<br>`clinical-calm` | **Academic editorial**<br>![Academic editorial](examples/style-catalog/generated/academic-editorial.png)<br>Research and journal-style explanations<br>AI visual reference · [規格 / Spec](skills/codex-ppt-style-expanded/references/styles.json)<br>`academic-editorial` |
+| **Friendly clay 3D**<br>![Friendly clay 3D](examples/previews/friendly-clay-zh-TW.png)<br>Introductory teaching and concepts<br>Editable PPT preview · [規格 / Spec](skills/codex-ppt-style-expanded/references/styles.json)<br>`friendly-clay` | **Japanese paper**<br>![Japanese paper](examples/style-catalog/generated/japanese-paper.png)<br>Humanities and gentle narratives<br>AI visual reference · [規格 / Spec](skills/codex-ppt-style-expanded/references/styles.json)<br>`japanese-paper` |
+| **Premium brand**<br>![Premium brand](examples/style-catalog/generated/premium-brand.png)<br>Brand and premium proposals<br>AI visual reference · [規格 / Spec](skills/codex-ppt-style-expanded/references/styles.json)<br>`premium-brand` | **Futuristic light**<br>![Futuristic light](examples/style-catalog/generated/futuristic-light.png)<br>AI, engineering and platforms<br>AI visual reference · [規格 / Spec](skills/codex-ppt-style-expanded/references/styles.json)<br>`futuristic-light` |
+| **Cinematic dark**<br>![Cinematic dark](examples/previews/cinematic-dark-zh-TW.png)<br>Keynotes and launches<br>Editable PPT preview · [規格 / Spec](skills/codex-ppt-style-expanded/references/styles.json)<br>`cinematic-dark` | **Nature science**<br>![Nature science](examples/style-catalog/generated/nature-science.png)<br>Ecology and science education<br>AI visual reference · [規格 / Spec](skills/codex-ppt-style-expanded/references/styles.json)<br>`nature-science` |
+| **Ink humanities**<br>![Ink humanities](examples/style-catalog/generated/ink-humanities.png)<br>Culture, history and art<br>AI visual reference · [規格 / Spec](skills/codex-ppt-style-expanded/references/styles.json)<br>`ink-humanities` | **Architectural space**<br>![Architectural space](examples/style-catalog/generated/architectural-space.png)<br>Architecture and spatial design<br>AI visual reference · [規格 / Spec](skills/codex-ppt-style-expanded/references/styles.json)<br>`architectural-space` |
+| **Documentary photography**<br>![Documentary photography](examples/style-catalog/generated/documentary-photo.png)<br>Social issues and illustrative cases<br>AI visual reference · [規格 / Spec](skills/codex-ppt-style-expanded/references/styles.json)<br>`documentary-photo` | **Bold poster**<br>![Bold poster](examples/style-catalog/generated/bold-poster.png)<br>Events and key messages<br>AI visual reference · [規格 / Spec](skills/codex-ppt-style-expanded/references/styles.json)<br>`bold-poster` |
+
+[Generation prompts](examples/style-catalog/prompts.json) · [Machine-readable style catalog](skills/codex-ppt-style-expanded/references/style-catalog.json) · [Editable examples for the three earlier recipes](examples/style-samples.pptx)
+
+```text
+Use $codex-ppt-style-expanded. Compare ppt:手绘技术解释风,
+academic-editorial and ink-humanities for the same content.
+Create editable samples first, then let me choose a direction.
+```
+
 ## Nine cross-style examples
 
 The shared topic is “Communicating research clearly.” Each context uses the same core content across three styles, with distinct compositions and typography. Slide content is in Traditional Chinese.
@@ -58,7 +96,7 @@ then compare three visual styles.
 
 ## Style expansion and tools
 
-Includes 12 upstream references, [12 additional recipes](skills/codex-ppt-style-expanded/references/styles.json), and 22 Image 2 template entries. These are design directions, not 24 finished PowerPoint masters. The main gallery shows nine examples using three upstream styles.
+Includes 12 upstream references, [12 additional recipes](skills/codex-ppt-style-expanded/references/styles.json), and 22 Image 2 template entries. These are design directions, not 24 finished PowerPoint masters. The catalog above covers all 24 styles; the nine-slide comparison demonstrates three of them in practice.
 
 - [Style expansion guide](skills/codex-ppt-style-expanded/references/style-expansion.md)
 - [Research, teaching and PechaKucha rules](skills/codex-ppt-style-expanded/references/presentation-modes.md)

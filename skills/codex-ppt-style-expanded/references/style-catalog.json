@@ -1,0 +1,242 @@
+[
+  {
+    "id": "ppt:清爽专业风",
+    "name_zh": "清爽專業",
+    "name_en": "Clean professional",
+    "use_zh": "商務報告、專業提案",
+    "use_en": "Business reports and proposals",
+    "kind": "upstream-reference",
+    "image": "https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/f2ed80372f65bb05fe62dd07979b239a17ac065d/assets/style-previews/clean-professional.png",
+    "spec": "skills/codex-ppt-style-expanded/references/upstream-ppt/清爽专业风.md"
+  },
+  {
+    "id": "ppt:创意杂志风",
+    "name_zh": "創意雜誌",
+    "name_en": "Creative magazine",
+    "use_zh": "創意演講、品牌敘事",
+    "use_en": "Creative talks and brand stories",
+    "kind": "upstream-reference",
+    "image": "https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/f2ed80372f65bb05fe62dd07979b239a17ac065d/assets/style-previews/creative-magazine.png",
+    "spec": "skills/codex-ppt-style-expanded/references/upstream-ppt/创意杂志风.md"
+  },
+  {
+    "id": "ppt:电子墨水杂志风",
+    "name_zh": "電子墨水雜誌",
+    "name_en": "E-ink magazine",
+    "use_zh": "黑白閱讀、文字導向分享",
+    "use_en": "Monochrome reading and editorial talks",
+    "kind": "upstream-reference",
+    "image": "https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/f2ed80372f65bb05fe62dd07979b239a17ac065d/assets/style-previews/e-ink-magazine.png",
+    "spec": "skills/codex-ppt-style-expanded/references/upstream-ppt/电子墨水杂志风.md"
+  },
+  {
+    "id": "ppt:数据仪表盘风",
+    "name_zh": "數據儀表板",
+    "name_en": "Data dashboard",
+    "use_zh": "指標、營運、成果比較",
+    "use_en": "Metrics, operations and comparisons",
+    "kind": "upstream-reference",
+    "image": "https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/f2ed80372f65bb05fe62dd07979b239a17ac065d/assets/style-previews/data-dashboard.png",
+    "spec": "skills/codex-ppt-style-expanded/references/upstream-ppt/数据仪表盘风.md"
+  },
+  {
+    "id": "ppt:复古扁平插画风",
+    "name_zh": "復古扁平插畫",
+    "name_en": "Retro flat illustration",
+    "use_zh": "科普、故事、概念解說",
+    "use_en": "Science communication and concepts",
+    "kind": "upstream-reference",
+    "image": "https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/f2ed80372f65bb05fe62dd07979b239a17ac065d/assets/style-previews/retro-flat-illustration.png",
+    "spec": "skills/codex-ppt-style-expanded/references/upstream-ppt/复古扁平插画风.md"
+  },
+  {
+    "id": "ppt:手绘技术解释风",
+    "name_zh": "手繪技術圖解",
+    "name_en": "Handdrawn technical",
+    "use_zh": "技術原理、流程、研究教學",
+    "use_en": "Technical concepts, processes and teaching",
+    "kind": "upstream-reference",
+    "image": "https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/f2ed80372f65bb05fe62dd07979b239a17ac065d/assets/style-previews/handdrawn-technical.png",
+    "spec": "skills/codex-ppt-style-expanded/references/upstream-ppt/手绘技术解释风.md"
+  },
+  {
+    "id": "ppt:手绘白板风",
+    "name_zh": "手繪白板",
+    "name_en": "Handdrawn whiteboard",
+    "use_zh": "工作坊、腦力激盪、步驟講解",
+    "use_en": "Workshops, brainstorming and steps",
+    "kind": "upstream-reference",
+    "image": "https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/f2ed80372f65bb05fe62dd07979b239a17ac065d/assets/style-previews/handdrawn-whiteboard.png",
+    "spec": "skills/codex-ppt-style-expanded/references/upstream-ppt/手绘白板风.md"
+  },
+  {
+    "id": "ppt:温暖手工风",
+    "name_zh": "溫暖手工",
+    "name_en": "Warm handmade",
+    "use_zh": "人文、教育、溫暖故事",
+    "use_en": "Humanities, education and warm stories",
+    "kind": "upstream-reference",
+    "image": "https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/f2ed80372f65bb05fe62dd07979b239a17ac065d/assets/style-previews/warm-handmade.png",
+    "spec": "skills/codex-ppt-style-expanded/references/upstream-ppt/温暖手工风.md"
+  },
+  {
+    "id": "ppt:科研答辩风",
+    "name_zh": "科學研究／答辯",
+    "name_en": "Scientific defense",
+    "use_zh": "論文口試、研究發表",
+    "use_en": "Thesis defense and research talks",
+    "kind": "upstream-reference",
+    "image": "https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/f2ed80372f65bb05fe62dd07979b239a17ac065d/assets/style-previews/scientific-defense.png",
+    "spec": "skills/codex-ppt-style-expanded/references/upstream-ppt/科研答辩风.md"
+  },
+  {
+    "id": "ppt:麦肯锡风格",
+    "name_zh": "麥肯錫顧問風",
+    "name_en": "Consulting style",
+    "use_zh": "策略、決策、商業分析",
+    "use_en": "Strategy, decisions and business analysis",
+    "kind": "upstream-reference",
+    "image": "https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/f2ed80372f65bb05fe62dd07979b239a17ac065d/assets/style-previews/mckinsey-style.png",
+    "spec": "skills/codex-ppt-style-expanded/references/upstream-ppt/麦肯锡风格.md"
+  },
+  {
+    "id": "ppt:党政红风格",
+    "name_zh": "黨政紅",
+    "name_en": "Party/government red",
+    "use_zh": "正式政策與機關簡報",
+    "use_en": "Formal policy and institutional reports",
+    "kind": "upstream-reference",
+    "image": "https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/f2ed80372f65bb05fe62dd07979b239a17ac065d/assets/style-previews/party-government-red.png",
+    "spec": "skills/codex-ppt-style-expanded/references/upstream-ppt/党政红风格.md"
+  },
+  {
+    "id": "ppt:教学课件风",
+    "name_zh": "教學課件",
+    "name_en": "Teaching courseware",
+    "use_zh": "課堂、訓練、知識分段",
+    "use_en": "Classes, training and structured lessons",
+    "kind": "upstream-reference",
+    "image": "https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/f2ed80372f65bb05fe62dd07979b239a17ac065d/assets/style-previews/teaching-courseware.png",
+    "spec": "skills/codex-ppt-style-expanded/references/upstream-ppt/教学课件风.md"
+  },
+  {
+    "id": "clinical-calm",
+    "name_zh": "臨床清晰",
+    "name_en": "Clinical calm",
+    "use_zh": "醫療、資料頁採清楚網格，對照頁兩欄；裝飾遠離證據",
+    "use_en": "Medical and professional education",
+    "kind": "editable-ppt-render",
+    "image": "examples/previews/clinical-calm-zh-TW.png",
+    "spec": "skills/codex-ppt-style-expanded/references/styles.json"
+  },
+  {
+    "id": "academic-editorial",
+    "name_zh": "學術期刊編輯",
+    "name_en": "Academic editorial",
+    "use_zh": "學術、研究問題、方法、結果以不同版型呈現，圖表區大面積留白",
+    "use_en": "Research and journal-style explanations",
+    "kind": "generated-visual-reference",
+    "image": "examples/style-catalog/generated/academic-editorial.png",
+    "spec": "skills/codex-ppt-style-expanded/references/styles.json"
+  },
+  {
+    "id": "friendly-clay",
+    "name_zh": "柔和黏土 3D",
+    "name_en": "Friendly clay 3D",
+    "use_zh": "教學、概念頁左文右圖，流程頁原生節點，資料頁減少 3D",
+    "use_en": "Introductory teaching and concepts",
+    "kind": "editable-ppt-render",
+    "image": "examples/previews/friendly-clay-zh-TW.png",
+    "spec": "skills/codex-ppt-style-expanded/references/styles.json"
+  },
+  {
+    "id": "japanese-paper",
+    "name_zh": "日系和紙",
+    "name_en": "Japanese paper",
+    "use_zh": "人文、非對稱留白，章節頁安靜，內容頁清楚雙欄",
+    "use_en": "Humanities and gentle narratives",
+    "kind": "generated-visual-reference",
+    "image": "examples/style-catalog/generated/japanese-paper.png",
+    "spec": "skills/codex-ppt-style-expanded/references/styles.json"
+  },
+  {
+    "id": "premium-brand",
+    "name_zh": "精品典雅",
+    "name_en": "Premium brand",
+    "use_zh": "品牌、大標題、低密度內容、比較頁克制網格",
+    "use_en": "Brand and premium proposals",
+    "kind": "generated-visual-reference",
+    "image": "examples/style-catalog/generated/premium-brand.png",
+    "spec": "skills/codex-ppt-style-expanded/references/styles.json"
+  },
+  {
+    "id": "futuristic-light",
+    "name_zh": "明亮未來科技",
+    "name_en": "Futuristic light",
+    "use_zh": "AI、架構頁用原生線條，內容頁非對稱，資料頁白底",
+    "use_en": "AI, engineering and platforms",
+    "kind": "generated-visual-reference",
+    "image": "examples/style-catalog/generated/futuristic-light.png",
+    "spec": "skills/codex-ppt-style-expanded/references/styles.json"
+  },
+  {
+    "id": "cinematic-dark",
+    "name_zh": "深色電影敘事",
+    "name_en": "Cinematic dark",
+    "use_zh": "演講、少量大字、章節全景、證據頁使用清晰淺色容器",
+    "use_en": "Keynotes and launches",
+    "kind": "editable-ppt-render",
+    "image": "examples/previews/cinematic-dark-zh-TW.png",
+    "spec": "skills/codex-ppt-style-expanded/references/styles.json"
+  },
+  {
+    "id": "nature-science",
+    "name_zh": "自然科普",
+    "name_en": "Nature science",
+    "use_zh": "環境、現象頁圖文並列，機制頁原生流程，資料頁留白",
+    "use_en": "Ecology and science education",
+    "kind": "generated-visual-reference",
+    "image": "examples/style-catalog/generated/nature-science.png",
+    "spec": "skills/codex-ppt-style-expanded/references/styles.json"
+  },
+  {
+    "id": "ink-humanities",
+    "name_zh": "水墨人文",
+    "name_en": "Ink humanities",
+    "use_zh": "文化、章節頁大留白，內容頁現代網格，時間線原生",
+    "use_en": "Culture, history and art",
+    "kind": "generated-visual-reference",
+    "image": "examples/style-catalog/generated/ink-humanities.png",
+    "spec": "skills/codex-ppt-style-expanded/references/styles.json"
+  },
+  {
+    "id": "architectural-space",
+    "name_zh": "建築空間",
+    "name_en": "Architectural space",
+    "use_zh": "設計、封面空間大圖，案例圖文，方案比較兩欄",
+    "use_en": "Architecture and spatial design",
+    "kind": "generated-visual-reference",
+    "image": "examples/style-catalog/generated/architectural-space.png",
+    "spec": "skills/codex-ppt-style-expanded/references/styles.json"
+  },
+  {
+    "id": "documentary-photo",
+    "name_zh": "紀實攝影",
+    "name_en": "Documentary photography",
+    "use_zh": "社會、照片聚焦單側，案例與引言留空白文字區",
+    "use_en": "Social issues and illustrative cases",
+    "kind": "generated-visual-reference",
+    "image": "examples/style-catalog/generated/documentary-photo.png",
+    "spec": "skills/codex-ppt-style-expanded/references/styles.json"
+  },
+  {
+    "id": "bold-poster",
+    "name_zh": "大字海報",
+    "name_en": "Bold poster",
+    "use_zh": "演講、大字封面與核心句，內頁改用低密度網格",
+    "use_en": "Events and key messages",
+    "kind": "generated-visual-reference",
+    "image": "examples/style-catalog/generated/bold-poster.png",
+    "spec": "skills/codex-ppt-style-expanded/references/styles.json"
+  }
+]

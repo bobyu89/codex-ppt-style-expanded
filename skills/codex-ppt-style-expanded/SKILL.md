@@ -24,6 +24,7 @@ description: Create multi-style PowerPoint decks with AI-generated backgrounds a
 在專案內保存 `brief.md` 和 `outline.md`。逐頁記錄主張、內容、來源、頁面角色、必要素材。受眾決定解釋深度；風格不能取代內容準確性。
 
 ### 2. 搜尋與收斂風格
+先查閱 [references/style-catalog.json](references/style-catalog.json) 的 24 種完整圖例索引。依 kind 區分上游參考、AI 視覺示意與可編輯 PPT 預覽，展示時不可互相冒充。圖片為線上預覽連結或儲存庫根目錄相對路徑；獨立安裝 Skill 時可至 GitHub README 查看圖片。
 讀取 [references/style-expansion.md](references/style-expansion.md)。優先採用使用者明確指定的風格或參考圖；本系列預設以 codex-ppt 上游的原始風格與實際圖片為視覺基準，尤其手繪技術解釋、科研及創意雜誌。新增配方作為可選延伸，不能取代使用者喜歡的原始美學。沒有指定時推薦三種，最多五種。每種附配色、圖像語言、密度、適用原因。五種是每輪比較上限，不是風格庫容量上限。
 
 用 `python scripts/search_styles.py --query "醫療 教學 illustration" --limit 5` 查詢；原始資料與衍生配方皆可离線讀取。詞彙搜尋只作檢索，不把分數當作美學判斷。
