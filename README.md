@@ -6,41 +6,50 @@
 
 以 [codex-ppt-skill](https://github.com/ningzimu/codex-ppt-skill) 的圖解、樣張與逐頁檢查流程為基礎，結合 [awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2) 的風格索引與提示詞。這是獨立衍生 Skill。
 
-## 全部 24 種內建風格
+## 全部 27 種內建風格
 
-先看圖，再把風格名稱或下方 ID 交給 Codex。包含 12 種原始參考與 12 種延伸配方；另有 22 個生圖提示詞模板作為素材資源，不額外算成 PPT 風格。
+27 張目錄封面統一使用繁體中文。可直接指定下方名稱或 ID：保留 11 種原始風格，加上 16 種延伸配方，其中 4 種為本次新增。另有 22 個生圖提示詞模板作為素材資源，不額外算成 PPT 風格。
 
-### 12 種原始風格
+以下新製封面是**點陣式視覺參考圖**，不是可編輯 PPT 渲染圖或完成的母片。實際製作簡報時，會依選定風格重新生成無字背景，再加入可獨立修改的原生文字；九頁可編輯交叉範例保留在下方。封面中的圖像或圖表造型皆為裝飾示意，不是研究數據。
 
-以下直接展示上游作者的原始風格參考，圖片連結固定於 [codex-ppt-skill 的來源版本](https://github.com/ningzimu/codex-ppt-skill/tree/f2ed80372f65bb05fe62dd07979b239a17ac065d)。這些是視覺參考，並非本專案的可編輯 PPT 渲染圖；圖中文字保留原始語言。
+### 本次新增 4 種風格
 
-| | |
-|---|---|
-| **清爽專業**<br>![清爽專業](https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/f2ed80372f65bb05fe62dd07979b239a17ac065d/assets/style-previews/clean-professional.png)<br>商務報告、專業提案<br>上游風格參考 · [規格 / Spec](skills/codex-ppt-style-expanded/references/upstream-ppt/清爽专业风.md)<br>`ppt:清爽专业风` | **創意雜誌**<br>![創意雜誌](https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/f2ed80372f65bb05fe62dd07979b239a17ac065d/assets/style-previews/creative-magazine.png)<br>創意演講、品牌敘事<br>上游風格參考 · [規格 / Spec](skills/codex-ppt-style-expanded/references/upstream-ppt/创意杂志风.md)<br>`ppt:创意杂志风` |
-| **電子墨水雜誌**<br>![電子墨水雜誌](https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/f2ed80372f65bb05fe62dd07979b239a17ac065d/assets/style-previews/e-ink-magazine.png)<br>黑白閱讀、文字導向分享<br>上游風格參考 · [規格 / Spec](skills/codex-ppt-style-expanded/references/upstream-ppt/电子墨水杂志风.md)<br>`ppt:电子墨水杂志风` | **數據儀表板**<br>![數據儀表板](https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/f2ed80372f65bb05fe62dd07979b239a17ac065d/assets/style-previews/data-dashboard.png)<br>指標、營運、成果比較<br>上游風格參考 · [規格 / Spec](skills/codex-ppt-style-expanded/references/upstream-ppt/数据仪表盘风.md)<br>`ppt:数据仪表盘风` |
-| **復古扁平插畫**<br>![復古扁平插畫](https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/f2ed80372f65bb05fe62dd07979b239a17ac065d/assets/style-previews/retro-flat-illustration.png)<br>科普、故事、概念解說<br>上游風格參考 · [規格 / Spec](skills/codex-ppt-style-expanded/references/upstream-ppt/复古扁平插画风.md)<br>`ppt:复古扁平插画风` | **手繪技術圖解**<br>![手繪技術圖解](https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/f2ed80372f65bb05fe62dd07979b239a17ac065d/assets/style-previews/handdrawn-technical.png)<br>技術原理、流程、研究教學<br>上游風格參考 · [規格 / Spec](skills/codex-ppt-style-expanded/references/upstream-ppt/手绘技术解释风.md)<br>`ppt:手绘技术解释风` |
-| **手繪白板**<br>![手繪白板](https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/f2ed80372f65bb05fe62dd07979b239a17ac065d/assets/style-previews/handdrawn-whiteboard.png)<br>工作坊、腦力激盪、步驟講解<br>上游風格參考 · [規格 / Spec](skills/codex-ppt-style-expanded/references/upstream-ppt/手绘白板风.md)<br>`ppt:手绘白板风` | **溫暖手工**<br>![溫暖手工](https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/f2ed80372f65bb05fe62dd07979b239a17ac065d/assets/style-previews/warm-handmade.png)<br>人文、教育、溫暖故事<br>上游風格參考 · [規格 / Spec](skills/codex-ppt-style-expanded/references/upstream-ppt/温暖手工风.md)<br>`ppt:温暖手工风` |
-| **科學研究／答辯**<br>![科學研究／答辯](https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/f2ed80372f65bb05fe62dd07979b239a17ac065d/assets/style-previews/scientific-defense.png)<br>論文口試、研究發表<br>上游風格參考 · [規格 / Spec](skills/codex-ppt-style-expanded/references/upstream-ppt/科研答辩风.md)<br>`ppt:科研答辩风` | **麥肯錫顧問風**<br>![麥肯錫顧問風](https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/f2ed80372f65bb05fe62dd07979b239a17ac065d/assets/style-previews/mckinsey-style.png)<br>策略、決策、商業分析<br>上游風格參考 · [規格 / Spec](skills/codex-ppt-style-expanded/references/upstream-ppt/麦肯锡风格.md)<br>`ppt:麦肯锡风格` |
-| **黨政紅**<br>![黨政紅](https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/f2ed80372f65bb05fe62dd07979b239a17ac065d/assets/style-previews/party-government-red.png)<br>正式政策與機關簡報<br>上游風格參考 · [規格 / Spec](skills/codex-ppt-style-expanded/references/upstream-ppt/党政红风格.md)<br>`ppt:党政红风格` | **教學課件**<br>![教學課件](https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/f2ed80372f65bb05fe62dd07979b239a17ac065d/assets/style-previews/teaching-courseware.png)<br>課堂、訓練、知識分段<br>上游風格參考 · [規格 / Spec](skills/codex-ppt-style-expanded/references/upstream-ppt/教学课件风.md)<br>`ppt:教学课件风` |
-
-### 12 種延伸風格
-
-以下三種沿用已有的可編輯 PPT 預覽，另九種新增 AI 視覺示意，展示材質、配色與構圖方向。視覺示意不是完成的投影片或可編輯母片；紀實攝影風的生成圖片也不代表真實事件。
+依連結中的公開簡報示例研究視覺方向，再撰寫本專案的配方與新製封面；未分發外部模板檔案或圖片。
 
 | | |
 |---|---|
-| **臨床清晰**<br>![臨床清晰](examples/previews/clinical-calm-zh-TW.png)<br>醫療、資料頁採清楚網格，對照頁兩欄；裝飾遠離證據<br>可編輯 PPT 預覽 · [規格 / Spec](skills/codex-ppt-style-expanded/references/styles.json)<br>`clinical-calm` | **學術期刊編輯**<br>![學術期刊編輯](examples/style-catalog/generated/academic-editorial.png)<br>學術、研究問題、方法、結果以不同版型呈現，圖表區大面積留白<br>AI 視覺示意 · [規格 / Spec](skills/codex-ppt-style-expanded/references/styles.json)<br>`academic-editorial` |
-| **柔和黏土 3D**<br>![柔和黏土 3D](examples/previews/friendly-clay-zh-TW.png)<br>教學、概念頁左文右圖，流程頁原生節點，資料頁減少 3D<br>可編輯 PPT 預覽 · [規格 / Spec](skills/codex-ppt-style-expanded/references/styles.json)<br>`friendly-clay` | **日系和紙**<br>![日系和紙](examples/style-catalog/generated/japanese-paper.png)<br>人文、非對稱留白，章節頁安靜，內容頁清楚雙欄<br>AI 視覺示意 · [規格 / Spec](skills/codex-ppt-style-expanded/references/styles.json)<br>`japanese-paper` |
-| **精品典雅**<br>![精品典雅](examples/style-catalog/generated/premium-brand.png)<br>品牌、大標題、低密度內容、比較頁克制網格<br>AI 視覺示意 · [規格 / Spec](skills/codex-ppt-style-expanded/references/styles.json)<br>`premium-brand` | **明亮未來科技**<br>![明亮未來科技](examples/style-catalog/generated/futuristic-light.png)<br>AI、架構頁用原生線條，內容頁非對稱，資料頁白底<br>AI 視覺示意 · [規格 / Spec](skills/codex-ppt-style-expanded/references/styles.json)<br>`futuristic-light` |
-| **深色電影敘事**<br>![深色電影敘事](examples/previews/cinematic-dark-zh-TW.png)<br>演講、少量大字、章節全景、證據頁使用清晰淺色容器<br>可編輯 PPT 預覽 · [規格 / Spec](skills/codex-ppt-style-expanded/references/styles.json)<br>`cinematic-dark` | **自然科普**<br>![自然科普](examples/style-catalog/generated/nature-science.png)<br>環境、現象頁圖文並列，機制頁原生流程，資料頁留白<br>AI 視覺示意 · [規格 / Spec](skills/codex-ppt-style-expanded/references/styles.json)<br>`nature-science` |
-| **水墨人文**<br>![水墨人文](examples/style-catalog/generated/ink-humanities.png)<br>文化、章節頁大留白，內容頁現代網格，時間線原生<br>AI 視覺示意 · [規格 / Spec](skills/codex-ppt-style-expanded/references/styles.json)<br>`ink-humanities` | **建築空間**<br>![建築空間](examples/style-catalog/generated/architectural-space.png)<br>設計、封面空間大圖，案例圖文，方案比較兩欄<br>AI 視覺示意 · [規格 / Spec](skills/codex-ppt-style-expanded/references/styles.json)<br>`architectural-space` |
-| **紀實攝影**<br>![紀實攝影](examples/style-catalog/generated/documentary-photo.png)<br>社會、照片聚焦單側，案例與引言留空白文字區<br>AI 視覺示意 · [規格 / Spec](skills/codex-ppt-style-expanded/references/styles.json)<br>`documentary-photo` | **大字海報**<br>![大字海報](examples/style-catalog/generated/bold-poster.png)<br>演講、大字封面與核心句，內頁改用低密度網格<br>AI 視覺示意 · [規格 / Spec](skills/codex-ppt-style-expanded/references/styles.json)<br>`bold-poster` |
+| **包浩斯幾何**<br>![包浩斯幾何](examples/style-catalog/covers-zh-TW/bauhaus-geometric.png)<br>設計、創新、概念提案<br>[風格規格](skills/codex-ppt-style-expanded/references/styles.json) · `bauhaus-geometric`<br>[參考來源](https://slidesgo.com/theme/bauhaus) | **孟菲斯活力**<br>![孟菲斯活力](examples/style-catalog/covers-zh-TW/memphis-playful.png)<br>工作坊、教育、活動<br>[風格規格](skills/codex-ppt-style-expanded/references/styles.json) · `memphis-playful`<br>[參考來源](https://slidesgo.com/theme/orange-memphis) |
+| **工程藍圖**<br>![工程藍圖](examples/style-catalog/covers-zh-TW/technical-blueprint.png)<br>工程、系統、技術規劃<br>[風格規格](skills/codex-ppt-style-expanded/references/styles.json) · `technical-blueprint`<br>[參考來源](https://www.slidescarnival.com/template/valentine-free-presentation-template/234) | **新粗獷主義**<br>![新粗獷主義](examples/style-catalog/covers-zh-TW/neo-brutalist.png)<br>產品發表、創意提案、觀點演講<br>[風格規格](skills/codex-ppt-style-expanded/references/styles.json) · `neo-brutalist`<br>[參考來源](https://slidesgo.com/brutalist) |
 
-[查看生圖提示詞](examples/style-catalog/prompts.json) · [完整風格索引](skills/codex-ppt-style-expanded/references/style-catalog.json) · [下載三種早期配方的可編輯範例](examples/style-samples.pptx)
+### 11 種原始風格
+
+視覺方向沿用 codex-ppt-skill，以下封面皆為本專案重新製作的繁中示意圖。
+
+| | |
+|---|---|
+| **清爽專業**<br>![清爽專業](examples/style-catalog/covers-zh-TW/clean-professional.png)<br>商務報告、專業提案<br>[風格規格](skills/codex-ppt-style-expanded/references/upstream-ppt/清爽专业风.md) · `ppt:清爽专业风` | **創意雜誌**<br>![創意雜誌](examples/style-catalog/covers-zh-TW/creative-magazine.png)<br>創意演講、品牌敘事<br>[風格規格](skills/codex-ppt-style-expanded/references/upstream-ppt/创意杂志风.md) · `ppt:创意杂志风` |
+| **電子墨水雜誌**<br>![電子墨水雜誌](examples/style-catalog/covers-zh-TW/e-ink-magazine.png)<br>黑白閱讀、文字導向分享<br>[風格規格](skills/codex-ppt-style-expanded/references/upstream-ppt/电子墨水杂志风.md) · `ppt:电子墨水杂志风` | **數據儀表板**<br>![數據儀表板](examples/style-catalog/covers-zh-TW/data-dashboard.png)<br>指標、營運、成果比較<br>[風格規格](skills/codex-ppt-style-expanded/references/upstream-ppt/数据仪表盘风.md) · `ppt:数据仪表盘风` |
+| **復古扁平插畫**<br>![復古扁平插畫](examples/style-catalog/covers-zh-TW/retro-flat-illustration.png)<br>科普、故事、概念解說<br>[風格規格](skills/codex-ppt-style-expanded/references/upstream-ppt/复古扁平插画风.md) · `ppt:复古扁平插画风` | **手繪技術圖解**<br>![手繪技術圖解](examples/style-catalog/covers-zh-TW/handdrawn-technical.png)<br>技術原理、流程、研究教學<br>[風格規格](skills/codex-ppt-style-expanded/references/upstream-ppt/手绘技术解释风.md) · `ppt:手绘技术解释风` |
+| **手繪白板**<br>![手繪白板](examples/style-catalog/covers-zh-TW/handdrawn-whiteboard.png)<br>工作坊、腦力激盪、步驟講解<br>[風格規格](skills/codex-ppt-style-expanded/references/upstream-ppt/手绘白板风.md) · `ppt:手绘白板风` | **溫暖手工**<br>![溫暖手工](examples/style-catalog/covers-zh-TW/warm-handmade.png)<br>人文、教育、溫暖故事<br>[風格規格](skills/codex-ppt-style-expanded/references/upstream-ppt/温暖手工风.md) · `ppt:温暖手工风` |
+| **科學研究**<br>![科學研究](examples/style-catalog/covers-zh-TW/scientific-defense.png)<br>論文口試、研究發表<br>[風格規格](skills/codex-ppt-style-expanded/references/upstream-ppt/科研答辩风.md) · `ppt:科研答辩风` | **麥肯錫顧問風**<br>![麥肯錫顧問風](examples/style-catalog/covers-zh-TW/mckinsey-style.png)<br>策略、決策、商業分析<br>[風格規格](skills/codex-ppt-style-expanded/references/upstream-ppt/麦肯锡风格.md) · `ppt:麦肯锡风格` |
+| **教學課件**<br>![教學課件](examples/style-catalog/covers-zh-TW/teaching-courseware.png)<br>課堂、訓練、知識分段<br>[風格規格](skills/codex-ppt-style-expanded/references/upstream-ppt/教学课件风.md) · `ppt:教学课件风` |  |
+
+### 其他 12 種延伸風格
+
+| | |
+|---|---|
+| **臨床清晰**<br>![臨床清晰](examples/style-catalog/covers-zh-TW/clinical-calm.png)<br>醫療、資料頁採清楚網格，對照頁兩欄；裝飾遠離證據<br>[風格規格](skills/codex-ppt-style-expanded/references/styles.json) · `clinical-calm` | **學術期刊編輯**<br>![學術期刊編輯](examples/style-catalog/covers-zh-TW/academic-editorial.png)<br>學術、研究問題、方法、結果以不同版型呈現，圖表區大面積留白<br>[風格規格](skills/codex-ppt-style-expanded/references/styles.json) · `academic-editorial` |
+| **柔和黏土 3D**<br>![柔和黏土 3D](examples/style-catalog/covers-zh-TW/friendly-clay.png)<br>教學、概念頁左文右圖，流程頁原生節點，資料頁減少 3D<br>[風格規格](skills/codex-ppt-style-expanded/references/styles.json) · `friendly-clay` | **日系和紙**<br>![日系和紙](examples/style-catalog/covers-zh-TW/japanese-paper.png)<br>人文、非對稱留白，章節頁安靜，內容頁清楚雙欄<br>[風格規格](skills/codex-ppt-style-expanded/references/styles.json) · `japanese-paper` |
+| **精品典雅**<br>![精品典雅](examples/style-catalog/covers-zh-TW/premium-brand.png)<br>品牌、大標題、低密度內容、比較頁克制網格<br>[風格規格](skills/codex-ppt-style-expanded/references/styles.json) · `premium-brand` | **明亮未來科技**<br>![明亮未來科技](examples/style-catalog/covers-zh-TW/futuristic-light.png)<br>AI、架構頁用原生線條，內容頁非對稱，資料頁白底<br>[風格規格](skills/codex-ppt-style-expanded/references/styles.json) · `futuristic-light` |
+| **深色電影敘事**<br>![深色電影敘事](examples/style-catalog/covers-zh-TW/cinematic-dark.png)<br>演講、少量大字、章節全景、證據頁使用清晰淺色容器<br>[風格規格](skills/codex-ppt-style-expanded/references/styles.json) · `cinematic-dark` | **自然科普**<br>![自然科普](examples/style-catalog/covers-zh-TW/nature-science.png)<br>環境、現象頁圖文並列，機制頁原生流程，資料頁留白<br>[風格規格](skills/codex-ppt-style-expanded/references/styles.json) · `nature-science` |
+| **水墨人文**<br>![水墨人文](examples/style-catalog/covers-zh-TW/ink-humanities.png)<br>文化、章節頁大留白，內容頁現代網格，時間線原生<br>[風格規格](skills/codex-ppt-style-expanded/references/styles.json) · `ink-humanities` | **建築空間**<br>![建築空間](examples/style-catalog/covers-zh-TW/architectural-space.png)<br>設計、封面空間大圖，案例圖文，方案比較兩欄<br>[風格規格](skills/codex-ppt-style-expanded/references/styles.json) · `architectural-space` |
+| **紀實攝影**<br>![紀實攝影](examples/style-catalog/covers-zh-TW/documentary-photo.png)<br>社會、照片聚焦單側，案例與引言留空白文字區<br>[風格規格](skills/codex-ppt-style-expanded/references/styles.json) · `documentary-photo` | **大字海報**<br>![大字海報](examples/style-catalog/covers-zh-TW/bold-poster.png)<br>演講、大字封面與核心句，內頁改用低密度網格<br>[風格規格](skills/codex-ppt-style-expanded/references/styles.json) · `bold-poster` |
+
+[查看封面與生圖提示詞](examples/style-catalog/covers-zh-TW/) · [完整風格索引](skills/codex-ppt-style-expanded/references/style-catalog.json)
 
 ```text
 請使用 $codex-ppt-style-expanded，以同一份內容比較
-ppt:手绘技术解释风、academic-editorial、ink-humanities。
+bauhaus-geometric、technical-blueprint、neo-brutalist。
 先做文字可編輯的樣張，讓我選擇方向。
 ```
 
@@ -95,7 +104,7 @@ ppt:手绘技术解释风、academic-editorial、ink-humanities。
 
 ## 風格拓展與工具
 
-保留 12 種上游風格參考，另有 [12 種衍生配方](skills/codex-ppt-style-expanded/references/styles.json)及 22 個 Image 2 模板索引。這些是可組合的設計方向，並非 24 套完成的 PowerPoint 母片。完整風格目錄見上方 24 種圖例，九張交叉範例展示其中三種風格的實際應用。
+保留 11 種上游風格參考，另有 [16 種延伸配方](skills/codex-ppt-style-expanded/references/styles.json)及 22 個 Image 2 模板索引。這些是可組合的設計方向，並非 27 套完成的 PowerPoint 母片。完整風格目錄見上方 27 種圖例，九張交叉範例展示其中三種風格的實際應用。
 
 - [風格拓展指南](skills/codex-ppt-style-expanded/references/style-expansion.md)
 - [研究、教學與 PechaKucha 規則](skills/codex-ppt-style-expanded/references/presentation-modes.md)

@@ -382,5 +382,133 @@
     "background_prompt": "生成 16:9 無字簡報背景。高對比色塊、幾何剪貼、邊緣裝飾。配色 F9F4E8,202020,E65F38,387F87。根據本頁版型保留指定的標題與內文安全區，主體不侵入文字區。不要文字、字母、數字、Logo、浮水印或圖表標籤。不要生成人工字形、海報文案、標語或數字。",
     "origin": "Derived recipe; not an upstream named deck style",
     "source_url": "https://github.com/freestylefly/awesome-gpt-image-2"
+  },
+  {
+    "id": "bauhaus-geometric",
+    "name": "包浩斯幾何",
+    "audience": "設計、創新、概念提案 Design, innovation and concepts",
+    "template_id": "poster-layout-system",
+    "palette": [
+      "F5EEDC",
+      "202020",
+      "D94A32",
+      "E7B82F"
+    ],
+    "palette_roles": [
+      "background",
+      "text",
+      "accent",
+      "secondary"
+    ],
+    "material": "包浩斯幾何構成：原色圓形、方形、三角形、理性網格與大面積米白，平面色塊，非拼貼攝影",
+    "layout": "非對稱幾何構成，封面大字，內頁以模組網格組織",
+    "avoid": "不生成虛構數據、Logo、尺寸或政治符號",
+    "typography": {
+      "title_pt": 36,
+      "body_pt": 25,
+      "note_pt": 15,
+      "preferred_font": "Microsoft JhengHei",
+      "fallback": "Noto Sans CJK TC"
+    },
+    "layout_reference": "style-expansion.md#共用版型座標",
+    "background_prompt": "生成 16:9 無字簡報背景。包浩斯幾何構成：原色圓形、方形、三角形、理性網格與大面積米白，平面色塊，非拼貼攝影。非對稱幾何構成，封面大字，內頁以模組網格組織。配色 F5EEDC,202020,D94A32,E7B82F。所有文字區保持空白，不要字母、數字、Logo 或浮水印。",
+    "origin": "Original recipe inspired by publicly documented presentation aesthetics; no external template assets copied",
+    "source_url": "https://slidesgo.com/theme/bauhaus"
+  },
+  {
+    "id": "memphis-playful",
+    "name": "孟菲斯活力",
+    "audience": "工作坊、教育、活動 Workshops, education and events",
+    "template_id": "poster-layout-system",
+    "palette": [
+      "FFF6E7",
+      "282448",
+      "F58B42",
+      "7979D8"
+    ],
+    "palette_roles": [
+      "background",
+      "text",
+      "accent",
+      "secondary"
+    ],
+    "material": "孟菲斯設計：橘、紫、薄荷綠，波浪、點陣、鋸齒與活潑不規則形狀，平面圖像",
+    "layout": "中央標題周圍分散有節奏的裝飾，內頁保留乾淨內容區",
+    "avoid": "不生成虛構數據、Logo、尺寸或政治符號",
+    "typography": {
+      "title_pt": 36,
+      "body_pt": 25,
+      "note_pt": 15,
+      "preferred_font": "Microsoft JhengHei",
+      "fallback": "Noto Sans CJK TC"
+    },
+    "layout_reference": "style-expansion.md#共用版型座標",
+    "background_prompt": "生成 16:9 無字簡報背景。孟菲斯設計：橘、紫、薄荷綠，波浪、點陣、鋸齒與活潑不規則形狀，平面圖像。中央標題周圍分散有節奏的裝飾，內頁保留乾淨內容區。配色 FFF6E7,282448,F58B42,7979D8。所有文字區保持空白，不要字母、數字、Logo 或浮水印。",
+    "origin": "Original recipe inspired by publicly documented presentation aesthetics; no external template assets copied",
+    "source_url": "https://slidesgo.com/theme/orange-memphis"
+  },
+  {
+    "id": "technical-blueprint",
+    "name": "工程藍圖",
+    "audience": "工程、系統、技術規劃 Engineering, systems and technical planning",
+    "template_id": "concept-product-breakdown",
+    "palette": [
+      "103D67",
+      "FFFFFF",
+      "7ECDE4",
+      "275A80"
+    ],
+    "palette_roles": [
+      "background",
+      "text",
+      "accent",
+      "secondary"
+    ],
+    "material": "深藍工程製圖紙、細白線、淡網格、等角投影的模組與連接線，沒有尺寸數值",
+    "layout": "中央或斜向技術物件與線框，原生標籤對齊各模組",
+    "avoid": "不生成虛構數據、Logo、尺寸或政治符號",
+    "typography": {
+      "title_pt": 36,
+      "body_pt": 25,
+      "note_pt": 15,
+      "preferred_font": "Microsoft JhengHei",
+      "fallback": "Noto Sans CJK TC"
+    },
+    "layout_reference": "style-expansion.md#共用版型座標",
+    "background_prompt": "生成 16:9 無字簡報背景。深藍工程製圖紙、細白線、淡網格、等角投影的模組與連接線，沒有尺寸數值。中央或斜向技術物件與線框，原生標籤對齊各模組。配色 103D67,FFFFFF,7ECDE4,275A80。所有文字區保持空白，不要字母、數字、Logo 或浮水印。",
+    "origin": "Original recipe inspired by publicly documented presentation aesthetics; no external template assets copied",
+    "source_url": "https://www.slidescarnival.com/template/valentine-free-presentation-template/234"
+  },
+  {
+    "id": "neo-brutalist",
+    "name": "新粗獷主義",
+    "audience": "產品發表、創意提案、觀點演講 Product launches, creative pitches and opinion talks",
+    "template_id": "poster-layout-system",
+    "palette": [
+      "F5F2E9",
+      "171717",
+      "D6FF3F",
+      "8C7CFF"
+    ],
+    "palette_roles": [
+      "background",
+      "text",
+      "accent",
+      "secondary"
+    ],
+    "material": "新粗獷平面設計：粗黑框、硬邊陰影、螢光萊姆綠與紫色、極大黑體、直接有力的矩形結構",
+    "layout": "大字跨欄、硬邊卡片、強烈但可讀的階層；不使用做舊雜誌拼貼",
+    "avoid": "不生成虛構數據、Logo、尺寸或政治符號",
+    "typography": {
+      "title_pt": 36,
+      "body_pt": 25,
+      "note_pt": 15,
+      "preferred_font": "Microsoft JhengHei",
+      "fallback": "Noto Sans CJK TC"
+    },
+    "layout_reference": "style-expansion.md#共用版型座標",
+    "background_prompt": "生成 16:9 無字簡報背景。新粗獷平面設計：粗黑框、硬邊陰影、螢光萊姆綠與紫色、極大黑體、直接有力的矩形結構。大字跨欄、硬邊卡片、強烈但可讀的階層；不使用做舊雜誌拼貼。配色 F5F2E9,171717,D6FF3F,8C7CFF。所有文字區保持空白，不要字母、數字、Logo 或浮水印。",
+    "origin": "Original recipe inspired by publicly documented presentation aesthetics; no external template assets copied",
+    "source_url": "https://slidesgo.com/brutalist"
   }
 ]

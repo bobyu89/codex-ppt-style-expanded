@@ -3,7 +3,7 @@
 ## 檢索來源
 
 1. `styles.json`：本衍生版的簡報配方；每筆包含 audience、palette、material、layout、template_id、background_prompt。
-2. `upstream-ppt/`：codex-ppt 原始 12 種風格。只讀候選檔案；其中的圖片文字要求不適用可編輯模式。
+2. `upstream-ppt/`：codex-ppt 原始 11 種風格。只讀候選檔案；其中的圖片文字要求不適用可編輯模式。
 3. `image2-library.json`：awesome-gpt-image-2 的原始結構化索引，保留模板 ID、類別、標籤、案例編號與限制。
 4. `image2-templates.md`：上游提示詞正文。依所選模板的 anchor 搜尋對應章節，不必全部讀取。
 
