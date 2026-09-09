@@ -58,22 +58,19 @@ SlideWeave 是新的展示名稱；Skill 呼叫名稱仍為 `$codex-ppt-style-ex
 
 ## 全部 27 種內建風格
 
-打開分類即可看圖。每種附用途、規格與 ID，看中後可直接指定給 Codex。
+以下直接展示全部風格封面。每種附用途、規格與 ID，看中後可直接指定給 Codex。
 
 這裡的 27 張繁中封面是**點陣式風格參考**，不是 27 套可編輯母片。實際簡報會依內容重製無字背景，再加入原生文字。另有 22 個生圖提示詞模板作為素材資源，不計入風格數量。
 
-<details>
-<summary>幾何與強烈視覺 · 4 種（點此展開）</summary>
+### 幾何與強烈視覺 · 4 種
 
 | | |
 |---|---|
 | **包浩斯幾何**<br>![包浩斯幾何](examples/style-catalog/covers-zh-TW/bauhaus-geometric.png)<br>設計、創新、概念提案<br>`bauhaus-geometric` · [Spec](skills/codex-ppt-style-expanded/references/styles.json)<br>[參考來源](https://slidesgo.com/theme/bauhaus) | **孟菲斯活力**<br>![孟菲斯活力](examples/style-catalog/covers-zh-TW/memphis-playful.png)<br>工作坊、教育、活動<br>`memphis-playful` · [Spec](skills/codex-ppt-style-expanded/references/styles.json)<br>[參考來源](https://slidesgo.com/theme/orange-memphis) |
 | **工程藍圖**<br>![工程藍圖](examples/style-catalog/covers-zh-TW/technical-blueprint.png)<br>工程、系統、技術規劃<br>`technical-blueprint` · [Spec](skills/codex-ppt-style-expanded/references/styles.json)<br>[參考來源](https://www.slidescarnival.com/template/valentine-free-presentation-template/234) | **新粗獷主義**<br>![新粗獷主義](examples/style-catalog/covers-zh-TW/neo-brutalist.png)<br>產品發表、創意提案、觀點演講<br>`neo-brutalist` · [Spec](skills/codex-ppt-style-expanded/references/styles.json)<br>[參考來源](https://slidesgo.com/brutalist) |
 
-</details>
 
-<details>
-<summary>原始風格 · 11 種（點此展開）</summary>
+### 原始風格 · 11 種
 
 | | |
 |---|---|
@@ -84,10 +81,8 @@ SlideWeave 是新的展示名稱；Skill 呼叫名稱仍為 `$codex-ppt-style-ex
 | **科學研究**<br>![科學研究](examples/style-catalog/covers-zh-TW/scientific-defense.png)<br>論文口試、研究發表<br>`ppt:科研答辩风` · [Spec](skills/codex-ppt-style-expanded/references/upstream-ppt/科研答辩风.md) | **麥肯錫顧問風**<br>![麥肯錫顧問風](examples/style-catalog/covers-zh-TW/mckinsey-style.png)<br>策略、決策、商業分析<br>`ppt:麦肯锡风格` · [Spec](skills/codex-ppt-style-expanded/references/upstream-ppt/麦肯锡风格.md) |
 | **教學課件**<br>![教學課件](examples/style-catalog/covers-zh-TW/teaching-courseware.png)<br>課堂、訓練、知識分段<br>`ppt:教学课件风` · [Spec](skills/codex-ppt-style-expanded/references/upstream-ppt/教学课件风.md) |  |
 
-</details>
 
-<details>
-<summary>延伸風格 · 12 種（點此展開）</summary>
+### 延伸風格 · 12 種
 
 | | |
 |---|---|
@@ -98,7 +93,6 @@ SlideWeave 是新的展示名稱；Skill 呼叫名稱仍為 `$codex-ppt-style-ex
 | **水墨人文**<br>![水墨人文](examples/style-catalog/covers-zh-TW/ink-humanities.png)<br>文化、章節頁大留白，內容頁現代網格，時間線原生<br>`ink-humanities` · [Spec](skills/codex-ppt-style-expanded/references/styles.json) | **建築空間**<br>![建築空間](examples/style-catalog/covers-zh-TW/architectural-space.png)<br>設計、封面空間大圖，案例圖文，方案比較兩欄<br>`architectural-space` · [Spec](skills/codex-ppt-style-expanded/references/styles.json) |
 | **紀實攝影**<br>![紀實攝影](examples/style-catalog/covers-zh-TW/documentary-photo.png)<br>社會、照片聚焦單側，案例與引言留空白文字區<br>`documentary-photo` · [Spec](skills/codex-ppt-style-expanded/references/styles.json) | **大字海報**<br>![大字海報](examples/style-catalog/covers-zh-TW/bold-poster.png)<br>演講、大字封面與核心句，內頁改用低密度網格<br>`bold-poster` · [Spec](skills/codex-ppt-style-expanded/references/styles.json) |
 
-</details>
 
 
 [完整風格索引](skills/codex-ppt-style-expanded/references/style-catalog.json) · [封面與提示詞](examples/style-catalog/covers-zh-TW/) · [拓展自己的風格](skills/codex-ppt-style-expanded/references/style-expansion.md)

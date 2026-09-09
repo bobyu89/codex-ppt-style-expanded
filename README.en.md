@@ -58,22 +58,19 @@ Context, pacing and style combine independently—for example, a handdrawn resea
 
 ## All 27 built-in styles
 
-Expand a category to compare covers. Each entry includes its intended use, specification and exact ID.
+Compare all style covers below. Each entry includes its intended use, specification and exact ID.
 
 These Traditional Chinese covers are **raster style references**, not 27 editable PowerPoint masters. Actual decks use backgrounds rebuilt for their content with native text added separately. Another 22 image-prompt templates support the workflow and are not counted as deck styles.
 
-<details>
-<summary>Geometric and bold · 4 styles（click to expand）</summary>
+### Geometric and bold · 4 styles
 
 | | |
 |---|---|
 | **Bauhaus geometric**<br>![包浩斯幾何](examples/style-catalog/covers-zh-TW/bauhaus-geometric.png)<br>Design, innovation and concepts<br>`bauhaus-geometric` · [Spec](skills/codex-ppt-style-expanded/references/styles.json)<br>[Inspiration](https://slidesgo.com/theme/bauhaus) | **Playful Memphis**<br>![孟菲斯活力](examples/style-catalog/covers-zh-TW/memphis-playful.png)<br>Workshops, education and events<br>`memphis-playful` · [Spec](skills/codex-ppt-style-expanded/references/styles.json)<br>[Inspiration](https://slidesgo.com/theme/orange-memphis) |
 | **Technical blueprint**<br>![工程藍圖](examples/style-catalog/covers-zh-TW/technical-blueprint.png)<br>Engineering, systems and technical planning<br>`technical-blueprint` · [Spec](skills/codex-ppt-style-expanded/references/styles.json)<br>[Inspiration](https://www.slidescarnival.com/template/valentine-free-presentation-template/234) | **Neo-brutalist**<br>![新粗獷主義](examples/style-catalog/covers-zh-TW/neo-brutalist.png)<br>Product launches, creative pitches and opinion talks<br>`neo-brutalist` · [Spec](skills/codex-ppt-style-expanded/references/styles.json)<br>[Inspiration](https://slidesgo.com/brutalist) |
 
-</details>
 
-<details>
-<summary>Original directions · 11 styles（click to expand）</summary>
+### Original directions · 11 styles
 
 | | |
 |---|---|
@@ -84,10 +81,8 @@ These Traditional Chinese covers are **raster style references**, not 27 editabl
 | **Scientific defense**<br>![科學研究](examples/style-catalog/covers-zh-TW/scientific-defense.png)<br>Thesis defense and research talks<br>`ppt:科研答辩风` · [Spec](skills/codex-ppt-style-expanded/references/upstream-ppt/科研答辩风.md) | **Consulting style**<br>![麥肯錫顧問風](examples/style-catalog/covers-zh-TW/mckinsey-style.png)<br>Strategy, decisions and business analysis<br>`ppt:麦肯锡风格` · [Spec](skills/codex-ppt-style-expanded/references/upstream-ppt/麦肯锡风格.md) |
 | **Teaching courseware**<br>![教學課件](examples/style-catalog/covers-zh-TW/teaching-courseware.png)<br>Classes, training and structured lessons<br>`ppt:教学课件风` · [Spec](skills/codex-ppt-style-expanded/references/upstream-ppt/教学课件风.md) |  |
 
-</details>
 
-<details>
-<summary>Additional directions · 12 styles（click to expand）</summary>
+### Additional directions · 12 styles
 
 | | |
 |---|---|
@@ -98,7 +93,6 @@ These Traditional Chinese covers are **raster style references**, not 27 editabl
 | **Ink humanities**<br>![水墨人文](examples/style-catalog/covers-zh-TW/ink-humanities.png)<br>Culture, history and art<br>`ink-humanities` · [Spec](skills/codex-ppt-style-expanded/references/styles.json) | **Architectural space**<br>![建築空間](examples/style-catalog/covers-zh-TW/architectural-space.png)<br>Architecture and spatial design<br>`architectural-space` · [Spec](skills/codex-ppt-style-expanded/references/styles.json) |
 | **Documentary photography**<br>![紀實攝影](examples/style-catalog/covers-zh-TW/documentary-photo.png)<br>Social issues and illustrative cases<br>`documentary-photo` · [Spec](skills/codex-ppt-style-expanded/references/styles.json) | **Bold poster**<br>![大字海報](examples/style-catalog/covers-zh-TW/bold-poster.png)<br>Events and key messages<br>`bold-poster` · [Spec](skills/codex-ppt-style-expanded/references/styles.json) |
 
-</details>
 
 
 [Full style index](skills/codex-ppt-style-expanded/references/style-catalog.json) · [Covers and prompts](examples/style-catalog/covers-zh-TW/) · [Extend the library](skills/codex-ppt-style-expanded/references/style-expansion.md)
