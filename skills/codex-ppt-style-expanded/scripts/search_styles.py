@@ -27,7 +27,8 @@ def main():
         p.error('--limit must be positive')
     rows = records()
     if a.show:
-        matches = [x for x in rows if x['id'] == a.show]
+        matches = [x for x in rows if x['id'] == a.show or
+                   x.get('short_code', '').casefold() == a.show.casefold()]
         if not matches:
             p.error('unknown style/template ID: ' + a.show)
         print(json.dumps(matches[0], ensure_ascii=False, indent=2))

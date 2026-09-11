@@ -32,3 +32,11 @@ MIT 原始授權全文保留於 licenses/。案例圖片未隨包分發；如要
 訪談修改內容：繁體中文、沿用已知答案、合併重複欄位、最多五種樣張、原生文字優先、流程圖問題，以及依既有授權繼續工作的規則。未沿用上游全頁圖片、禁止文字框、固定確認關卡、HTML 介面或多候選選圖程式。這是本專案修改版，不代表上游作者認可。
 
 draw.io 原始工具完整內含，但未自動設定 MCP、連線服務或安裝桌面依賴。已驗證此整合的環境偵測及基本流程 XML 驗證；未聲稱全部上游功能均在本環境測試。SVG 範例由本專案程式依節點資料建立，非原生 draw.io 匯出。
+
+## 手繪擴充與 Image 2.5（2026-09-11）
+
+參考 https://github.com/yang0/handraw-style ，查核 commit `58dee6151874c6fc381e6a0d97430f1c275c1696`。此時 GitHub license 欄位為 null，未發現 LICENSE；只借鑑編號選風格、雙語提示詞、參考圖角色分離的概念，不收錄其原文、圖片、作者索引、能力表或程式，不將本專案 MIT 套用到上游素材。
+
+本次獨立新增 HW01–HW06 六種媒材配方與繁中點陣封面；目前合計 11 種上游風格＋22 種本專案配方，共 33 種。歷史範例與其原始模型標記不變。
+
+Image 2.5 適配依據官方 https://developers.openai.com/api/docs/guides/image-prompting 、https://developers.openai.com/api/docs/models/gpt-image-2.5-flare 、https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst 。更新提示詞、模型辨識與編修規則，未訓練模型；新封面由內建 image_gen 生成，工具未公開子型號，不能作為 2.5 的經驗性驗證。

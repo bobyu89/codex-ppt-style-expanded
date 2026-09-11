@@ -272,5 +272,71 @@
     "image": "examples/style-catalog/covers-zh-TW/neo-brutalist.png",
     "spec": "skills/codex-ppt-style-expanded/references/styles.json",
     "inspiration_url": "https://slidesgo.com/brutalist"
+  },
+  {
+    "id": "graphite-research",
+    "short_code": "HW01",
+    "name_zh": "石墨研究筆記",
+    "name_en": "Graphite research notebook",
+    "use_zh": "研究方法、結構與觀察",
+    "use_en": "Research methods and observation",
+    "kind": "generated-cover-reference",
+    "image": "examples/style-catalog/covers-zh-TW/graphite-research.png",
+    "spec": "skills/codex-ppt-style-expanded/references/handdraw-styles.md"
+  },
+  {
+    "id": "colored-pencil-journal",
+    "short_code": "HW02",
+    "name_zh": "色鉛筆手帳",
+    "name_en": "Colored-pencil journal",
+    "use_zh": "學習紀錄、生活與反思",
+    "use_en": "Learning journals and reflection",
+    "kind": "generated-cover-reference",
+    "image": "examples/style-catalog/covers-zh-TW/colored-pencil-journal.png",
+    "spec": "skills/codex-ppt-style-expanded/references/handdraw-styles.md"
+  },
+  {
+    "id": "crayon-story",
+    "short_code": "HW03",
+    "name_zh": "蠟筆故事",
+    "name_en": "Wax-crayon story",
+    "use_zh": "入門教學、親子與故事",
+    "use_en": "Beginner teaching and stories",
+    "kind": "generated-cover-reference",
+    "image": "examples/style-catalog/covers-zh-TW/crayon-story.png",
+    "spec": "skills/codex-ppt-style-expanded/references/handdraw-styles.md"
+  },
+  {
+    "id": "chalk-classroom",
+    "short_code": "HW04",
+    "name_zh": "粉筆黑板",
+    "name_en": "Chalk classroom",
+    "use_zh": "投影教學、概念推導",
+    "use_en": "Projected teaching and concepts",
+    "kind": "generated-cover-reference",
+    "image": "examples/style-catalog/covers-zh-TW/chalk-classroom.png",
+    "spec": "skills/codex-ppt-style-expanded/references/handdraw-styles.md"
+  },
+  {
+    "id": "fineliner-editorial",
+    "short_code": "HW05",
+    "name_zh": "鋼筆編輯插畫",
+    "name_en": "Fineliner editorial",
+    "use_zh": "人文專題、觀點與介紹",
+    "use_en": "Editorial topics and introductions",
+    "kind": "generated-cover-reference",
+    "image": "examples/style-catalog/covers-zh-TW/fineliner-editorial.png",
+    "spec": "skills/codex-ppt-style-expanded/references/handdraw-styles.md"
+  },
+  {
+    "id": "marker-sketchnote",
+    "short_code": "HW06",
+    "name_zh": "麥克筆視覺筆記",
+    "name_en": "Marker sketchnote",
+    "use_zh": "工作坊、重點整理與討論",
+    "use_en": "Workshops and synthesis",
+    "kind": "generated-cover-reference",
+    "image": "examples/style-catalog/covers-zh-TW/marker-sketchnote.png",
+    "spec": "skills/codex-ppt-style-expanded/references/handdraw-styles.md"
   }
 ]

@@ -1,0 +1,83 @@
+{
+  "created": "2026-09-11",
+  "entries": [
+    {
+      "id": "graphite-research",
+      "short_code": "HW01",
+      "title": "石墨研究筆記",
+      "prompt": "Create one polished 16:9 PPT style-reference cover, not a contact sheet. Style: Graphite pencil research notebook on cool off-white paper, fine variable-pressure graphite lines, restrained crosshatching, faint construction marks, monochrome with a tiny muted blue accent. Asymmetric large conceptual pencil study of open notebook becoming blank slide sheets. Analytical calm, no watercolor, not brown vintage. Heading looks careful handwritten Traditional Chinese pencil calligraphy. Content theme: turning ideas into presentations. Exact visible Traditional Chinese title \"石墨研究筆記\", small style code \"HW01\", and subtitle \"把想法畫成簡報\". Only these texts, no English beyond code, no other labels, no logo or watermark. The heading and illustration must feel made with the same medium. Keep Chinese fully legible. This is a raster reference cover, not the editable final PPT.",
+      "image": "graphite-research.png",
+      "kind": "generated-cover-reference",
+      "model_requested": "Image 2.5 workflow adaptation",
+      "backend_actual": "built-in image_gen",
+      "model_actual": "unknown",
+      "model_verified": false,
+      "reference_images_used": false
+    },
+    {
+      "id": "colored-pencil-journal",
+      "short_code": "HW02",
+      "title": "色鉛筆手帳",
+      "prompt": "Create one polished 16:9 PPT style-reference cover, not a contact sheet. Style: Layered colored-pencil strokes on ivory toothy paper, visible grain, gentle sage, coral and blue, small margin sketches and notebook objects. Handwritten Chinese title above a diagonal grouping of journal and blank presentation sheets. Intimate crafted journal, not glossy vector, no watercolor washes. Content theme: turning ideas into presentations. Exact visible Traditional Chinese title \"色鉛筆手帳\", small style code \"HW02\", and subtitle \"把想法畫成簡報\". Only these texts, no English beyond code, no other labels, no logo or watermark. The heading and illustration must feel made with the same medium. Keep Chinese fully legible. This is a raster reference cover, not the editable final PPT.",
+      "image": "colored-pencil-journal.png",
+      "kind": "generated-cover-reference",
+      "model_requested": "Image 2.5 workflow adaptation",
+      "backend_actual": "built-in image_gen",
+      "model_actual": "unknown",
+      "model_verified": false,
+      "reference_images_used": false
+    },
+    {
+      "id": "crayon-story",
+      "short_code": "HW03",
+      "title": "蠟筆故事",
+      "prompt": "Create one polished 16:9 PPT style-reference cover, not a contact sheet. Style: Bold wax crayon on bright white textured paper, visible broken wax strokes and rubbing texture, simple playful shapes, cobalt sunflower and vermilion. Large friendly Chinese handwritten heading and a broad lower-half illustration of a person sharing an idea through a blank slide, intentionally naive lively storytelling, uncluttered. Content theme: turning ideas into presentations. Exact visible Traditional Chinese title \"蠟筆故事\", small style code \"HW03\", and subtitle \"把想法畫成簡報\". Only these texts, no English beyond code, no other labels, no logo or watermark. The heading and illustration must feel made with the same medium. Keep Chinese fully legible. This is a raster reference cover, not the editable final PPT.",
+      "image": "crayon-story.png",
+      "kind": "generated-cover-reference",
+      "model_requested": "Image 2.5 workflow adaptation",
+      "backend_actual": "built-in image_gen",
+      "model_actual": "unknown",
+      "model_verified": false,
+      "reference_images_used": false
+    },
+    {
+      "id": "chalk-classroom",
+      "short_code": "HW04",
+      "title": "粉筆黑板",
+      "prompt": "Create one polished 16:9 PPT style-reference cover, not a contact sheet. Style: Deep matte forest-green blackboard, dusty white chalk lines with restrained pale yellow and sky blue, generous negative space, clear bold handwritten Chinese chalk title at upper left. Lower right shows an open book transforming into a blank teaching board drawn entirely in chalk, no photoreal classroom. Content theme: turning ideas into presentations. Exact visible Traditional Chinese title \"粉筆黑板\", small style code \"HW04\", and subtitle \"把想法畫成簡報\". Only these texts, no English beyond code, no other labels, no logo or watermark. The heading and illustration must feel made with the same medium. Keep Chinese fully legible. This is a raster reference cover, not the editable final PPT.",
+      "image": "chalk-classroom.png",
+      "kind": "generated-cover-reference",
+      "model_requested": "Image 2.5 workflow adaptation",
+      "backend_actual": "built-in image_gen",
+      "model_actual": "unknown",
+      "model_verified": false,
+      "reference_images_used": false
+    },
+    {
+      "id": "fineliner-editorial",
+      "short_code": "HW05",
+      "title": "鋼筆編輯插畫",
+      "prompt": "Create one polished 16:9 PPT style-reference cover, not a contact sheet. Style: Premium editorial pen illustration on white paper, spare continuous ink line with delicate varied hatching, large calm negative space, black plus one rusty orange spot color only. Large Chinese handwritten ink heading left, imaginative hand holding a pencil and unfolding blank presentation pages at right. Intelligent understated editorial composition, no paper collage, no watercolor. Content theme: turning ideas into presentations. Exact visible Traditional Chinese title \"鋼筆編輯插畫\", small style code \"HW05\", and subtitle \"把想法畫成簡報\". Only these texts, no English beyond code, no other labels, no logo or watermark. The heading and illustration must feel made with the same medium. Keep Chinese fully legible. This is a raster reference cover, not the editable final PPT.",
+      "image": "fineliner-editorial.png",
+      "kind": "generated-cover-reference",
+      "model_requested": "Image 2.5 workflow adaptation",
+      "backend_actual": "built-in image_gen",
+      "model_actual": "unknown",
+      "model_verified": false,
+      "reference_images_used": false
+    },
+    {
+      "id": "marker-sketchnote",
+      "short_code": "HW06",
+      "title": "麥克筆視覺筆記",
+      "prompt": "Create one polished 16:9 PPT style-reference cover, not a contact sheet. Style: Contemporary graphic recording sketch-note on bright white paper: confident thick-thin black felt-tip outlines, broad translucent mint and lemon marker highlights, a central lightbulb connected to a few paper and blank screen doodles below the title. Spacious visual map, native graphic recorder energy, readable handwritten Traditional Chinese title; no dense infographic, no extra tiny labels. Content theme: turning ideas into presentations. Exact visible Traditional Chinese title \"麥克筆視覺筆記\", small style code \"HW06\", and subtitle \"把想法畫成簡報\". Only these texts, no English beyond code, no other labels, no logo or watermark. The heading and illustration must feel made with the same medium. Keep Chinese fully legible. This is a raster reference cover, not the editable final PPT.",
+      "image": "marker-sketchnote.png",
+      "kind": "generated-cover-reference",
+      "model_requested": "Image 2.5 workflow adaptation",
+      "backend_actual": "built-in image_gen",
+      "model_actual": "unknown",
+      "model_verified": false,
+      "reference_images_used": false
+    }
+  ]
+}

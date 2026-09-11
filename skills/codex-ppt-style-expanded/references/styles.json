@@ -510,5 +510,221 @@
     "background_prompt": "生成 16:9 無字簡報背景。新粗獷平面設計：粗黑框、硬邊陰影、螢光萊姆綠與紫色、極大黑體、直接有力的矩形結構。大字跨欄、硬邊卡片、強烈但可讀的階層；不使用做舊雜誌拼貼。配色 F5F2E9,171717,D6FF3F,8C7CFF。所有文字區保持空白，不要字母、數字、Logo 或浮水印。",
     "origin": "Original recipe inspired by publicly documented presentation aesthetics; no external template assets copied",
     "source_url": "https://slidesgo.com/brutalist"
+  },
+  {
+    "id": "graphite-research",
+    "short_code": "HW01",
+    "name": "石墨研究筆記",
+    "name_en": "Graphite research notebook",
+    "audience": "研究方法、結構與觀察 handdrawn handwriting 手繪 手寫 Research methods and observation",
+    "palette": [
+      "F7F8F6",
+      "30383D",
+      "8096A7",
+      "DBDDDD"
+    ],
+    "palette_roles": [
+      "background",
+      "text",
+      "accent",
+      "secondary"
+    ],
+    "material": "可見石墨深淺與細排線，冷白紙、極少藍色重點",
+    "layout": "主圖剖面或觀察細節置中，短註記圍繞；不要黃紙、水彩與大量裝飾",
+    "avoid": "正式標題、內文、引用、數值與流程標籤不生成在背景中",
+    "typography": {
+      "title_pt": 36,
+      "body_pt": 25,
+      "note_pt": 15,
+      "preferred_font": "Microsoft JhengHei",
+      "handwritten_option": "DFKai-SB only if installed and glyphs verified",
+      "fallback": "Use an installed Traditional Chinese font"
+    },
+    "layout_reference": "handdraw-styles.md",
+    "background_prompt": "用途：16:9 簡報無字背景。媒材：可見石墨深淺與細排線，冷白紙、極少藍色重點。本頁內容與圖文留白位置依大綱設定。主圖剖面或觀察細節置中，短註記圍繞；不要黃紙、水彩與大量裝飾。不生成文字、字母、數字、Logo 或浮水印，正式文字由 PPT 原生物件加入。",
+    "background_prompt_en": "Create a text-free 16:9 slide background. Medium: Fine pressure-sensitive graphite lines, crosshatching, cool white paper, tiny muted blue accents. Use the page brief for subject, composition and text-safe space. Leave titles, captions, citations and formal diagram labels out of the image; add them as native PowerPoint objects.",
+    "origin": "Original SlideWeave recipe; numbered discovery concept inspired by yang0/handraw-style; no upstream assets or prompts copied",
+    "source_url": "https://github.com/yang0/handraw-style",
+    "model_workflow": "image25-workflow.md"
+  },
+  {
+    "id": "colored-pencil-journal",
+    "short_code": "HW02",
+    "name": "色鉛筆手帳",
+    "name_en": "Colored-pencil journal",
+    "audience": "學習紀錄、生活與反思 handdrawn handwriting 手繪 手寫 Learning journals and reflection",
+    "palette": [
+      "FCF8EF",
+      "3E4941",
+      "819977",
+      "DC927B"
+    ],
+    "palette_roles": [
+      "background",
+      "text",
+      "accent",
+      "secondary"
+    ],
+    "material": "紙紋露底、短筆觸與色鉛筆疊色，鼠尾草綠和珊瑚點綴",
+    "layout": "不對稱筆記構圖；小插畫沿邊緣，正文區乾淨；不要水彩濕邊或照片拼貼",
+    "avoid": "正式標題、內文、引用、數值與流程標籤不生成在背景中",
+    "typography": {
+      "title_pt": 36,
+      "body_pt": 25,
+      "note_pt": 15,
+      "preferred_font": "Microsoft JhengHei",
+      "handwritten_option": "DFKai-SB only if installed and glyphs verified",
+      "fallback": "Use an installed Traditional Chinese font"
+    },
+    "layout_reference": "handdraw-styles.md",
+    "background_prompt": "用途：16:9 簡報無字背景。媒材：紙紋露底、短筆觸與色鉛筆疊色，鼠尾草綠和珊瑚點綴。本頁內容與圖文留白位置依大綱設定。不對稱筆記構圖；小插畫沿邊緣，正文區乾淨；不要水彩濕邊或照片拼貼。不生成文字、字母、數字、Logo 或浮水印，正式文字由 PPT 原生物件加入。",
+    "background_prompt_en": "Create a text-free 16:9 slide background. Medium: Visible paper tooth, short layered colored-pencil strokes, sage and coral accents. Use the page brief for subject, composition and text-safe space. Leave titles, captions, citations and formal diagram labels out of the image; add them as native PowerPoint objects.",
+    "origin": "Original SlideWeave recipe; numbered discovery concept inspired by yang0/handraw-style; no upstream assets or prompts copied",
+    "source_url": "https://github.com/yang0/handraw-style",
+    "model_workflow": "image25-workflow.md"
+  },
+  {
+    "id": "crayon-story",
+    "short_code": "HW03",
+    "name": "蠟筆故事",
+    "name_en": "Wax-crayon story",
+    "audience": "入門教學、親子與故事 handdrawn handwriting 手繪 手寫 Beginner teaching and stories",
+    "palette": [
+      "FFFEFA",
+      "303A50",
+      "3264B0",
+      "EBC54B"
+    ],
+    "palette_roles": [
+      "background",
+      "text",
+      "accent",
+      "secondary"
+    ],
+    "material": "蠟筆粗線、斷筆與摩擦顆粒，簡化角色和明亮色塊",
+    "layout": "一頁一個故事動作，主圖橫向展開配大字；不要寫實陰影與密集小字",
+    "avoid": "正式標題、內文、引用、數值與流程標籤不生成在背景中",
+    "typography": {
+      "title_pt": 36,
+      "body_pt": 25,
+      "note_pt": 15,
+      "preferred_font": "Microsoft JhengHei",
+      "handwritten_option": "DFKai-SB only if installed and glyphs verified",
+      "fallback": "Use an installed Traditional Chinese font"
+    },
+    "layout_reference": "handdraw-styles.md",
+    "background_prompt": "用途：16:9 簡報無字背景。媒材：蠟筆粗線、斷筆與摩擦顆粒，簡化角色和明亮色塊。本頁內容與圖文留白位置依大綱設定。一頁一個故事動作，主圖橫向展開配大字；不要寫實陰影與密集小字。不生成文字、字母、數字、Logo 或浮水印，正式文字由 PPT 原生物件加入。",
+    "background_prompt_en": "Create a text-free 16:9 slide background. Medium: Broken wax-crayon strokes, rubbing texture, broad simple forms, cobalt and sunflower colors. Use the page brief for subject, composition and text-safe space. Leave titles, captions, citations and formal diagram labels out of the image; add them as native PowerPoint objects.",
+    "origin": "Original SlideWeave recipe; numbered discovery concept inspired by yang0/handraw-style; no upstream assets or prompts copied",
+    "source_url": "https://github.com/yang0/handraw-style",
+    "model_workflow": "image25-workflow.md"
+  },
+  {
+    "id": "chalk-classroom",
+    "short_code": "HW04",
+    "name": "粉筆黑板",
+    "name_en": "Chalk classroom",
+    "audience": "投影教學、概念推導 handdrawn handwriting 手繪 手寫 Projected teaching and concepts",
+    "palette": [
+      "173A33",
+      "F4F3E9",
+      "E6CE83",
+      "8EBEBB"
+    ],
+    "palette_roles": [
+      "background",
+      "text",
+      "accent",
+      "secondary"
+    ],
+    "material": "霧面深綠黑板、白粉筆顆粒，淡黃和天藍重點",
+    "layout": "主概念居中，推導按閱讀方向展開；文字維持高對比，正式公式與箭頭用原生物件",
+    "avoid": "正式標題、內文、引用、數值與流程標籤不生成在背景中",
+    "typography": {
+      "title_pt": 36,
+      "body_pt": 25,
+      "note_pt": 15,
+      "preferred_font": "Microsoft JhengHei",
+      "handwritten_option": "DFKai-SB only if installed and glyphs verified",
+      "fallback": "Use an installed Traditional Chinese font"
+    },
+    "layout_reference": "handdraw-styles.md",
+    "background_prompt": "用途：16:9 簡報無字背景。媒材：霧面深綠黑板、白粉筆顆粒，淡黃和天藍重點。本頁內容與圖文留白位置依大綱設定。主概念居中，推導按閱讀方向展開；文字維持高對比，正式公式與箭頭用原生物件。不生成文字、字母、數字、Logo 或浮水印，正式文字由 PPT 原生物件加入。",
+    "background_prompt_en": "Create a text-free 16:9 slide background. Medium: Matte forest-green blackboard, dusty white chalk, pale yellow and blue highlights. Use the page brief for subject, composition and text-safe space. Leave titles, captions, citations and formal diagram labels out of the image; add them as native PowerPoint objects.",
+    "origin": "Original SlideWeave recipe; numbered discovery concept inspired by yang0/handraw-style; no upstream assets or prompts copied",
+    "source_url": "https://github.com/yang0/handraw-style",
+    "model_workflow": "image25-workflow.md"
+  },
+  {
+    "id": "fineliner-editorial",
+    "short_code": "HW05",
+    "name": "鋼筆編輯插畫",
+    "name_en": "Fineliner editorial",
+    "audience": "人文專題、觀點與介紹 handdrawn handwriting 手繪 手寫 Editorial topics and introductions",
+    "palette": [
+      "FFFFFF",
+      "25292B",
+      "BD6141",
+      "EBE7DF"
+    ],
+    "palette_roles": [
+      "background",
+      "text",
+      "accent",
+      "secondary"
+    ],
+    "material": "細鋼筆線與疏密排線，黑白為主搭鐵鏽橙專色",
+    "layout": "圖文偏心配置、單一概念隱喻；不要滿頁拼貼、粉彩水洗或粗卡通線",
+    "avoid": "正式標題、內文、引用、數值與流程標籤不生成在背景中",
+    "typography": {
+      "title_pt": 36,
+      "body_pt": 25,
+      "note_pt": 15,
+      "preferred_font": "Microsoft JhengHei",
+      "handwritten_option": "DFKai-SB only if installed and glyphs verified",
+      "fallback": "Use an installed Traditional Chinese font"
+    },
+    "layout_reference": "handdraw-styles.md",
+    "background_prompt": "用途：16:9 簡報無字背景。媒材：細鋼筆線與疏密排線，黑白為主搭鐵鏽橙專色。本頁內容與圖文留白位置依大綱設定。圖文偏心配置、單一概念隱喻；不要滿頁拼貼、粉彩水洗或粗卡通線。不生成文字、字母、數字、Logo 或浮水印，正式文字由 PPT 原生物件加入。",
+    "background_prompt_en": "Create a text-free 16:9 slide background. Medium: Spare fineliner ink contours, varied hatching, white negative space, one rust-orange spot color. Use the page brief for subject, composition and text-safe space. Leave titles, captions, citations and formal diagram labels out of the image; add them as native PowerPoint objects.",
+    "origin": "Original SlideWeave recipe; numbered discovery concept inspired by yang0/handraw-style; no upstream assets or prompts copied",
+    "source_url": "https://github.com/yang0/handraw-style",
+    "model_workflow": "image25-workflow.md"
+  },
+  {
+    "id": "marker-sketchnote",
+    "short_code": "HW06",
+    "name": "麥克筆視覺筆記",
+    "name_en": "Marker sketchnote",
+    "audience": "工作坊、重點整理與討論 handdrawn handwriting 手繪 手寫 Workshops and synthesis",
+    "palette": [
+      "FFFFFF",
+      "273333",
+      "B6DBB5",
+      "E9DF79"
+    ],
+    "palette_roles": [
+      "background",
+      "text",
+      "accent",
+      "secondary"
+    ],
+    "material": "黑色麥克筆粗細線、薄荷與檸檬色局部重點",
+    "layout": "概念節點或三步驟展開，留出標籤空間；正式流程線與文字用原生物件，不畫滿版塗鴉",
+    "avoid": "正式標題、內文、引用、數值與流程標籤不生成在背景中",
+    "typography": {
+      "title_pt": 36,
+      "body_pt": 25,
+      "note_pt": 15,
+      "preferred_font": "Microsoft JhengHei",
+      "handwritten_option": "DFKai-SB only if installed and glyphs verified",
+      "fallback": "Use an installed Traditional Chinese font"
+    },
+    "layout_reference": "handdraw-styles.md",
+    "background_prompt": "用途：16:9 簡報無字背景。媒材：黑色麥克筆粗細線、薄荷與檸檬色局部重點。本頁內容與圖文留白位置依大綱設定。概念節點或三步驟展開，留出標籤空間；正式流程線與文字用原生物件，不畫滿版塗鴉。不生成文字、字母、數字、Logo 或浮水印，正式文字由 PPT 原生物件加入。",
+    "background_prompt_en": "Create a text-free 16:9 slide background. Medium: Confident thick-thin felt-tip lines, sparse mint and lemon marker highlights. Use the page brief for subject, composition and text-safe space. Leave titles, captions, citations and formal diagram labels out of the image; add them as native PowerPoint objects.",
+    "origin": "Original SlideWeave recipe; numbered discovery concept inspired by yang0/handraw-style; no upstream assets or prompts copied",
+    "source_url": "https://github.com/yang0/handraw-style",
+    "model_workflow": "image25-workflow.md"
   }
 ]
