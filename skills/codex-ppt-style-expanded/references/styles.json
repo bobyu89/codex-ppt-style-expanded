@@ -726,5 +726,113 @@
     "origin": "Original SlideWeave recipe; numbered discovery concept inspired by yang0/handraw-style; no upstream assets or prompts copied",
     "source_url": "https://github.com/yang0/handraw-style",
     "model_workflow": "image25-workflow.md"
+  },
+  {
+    "id": "risograph-duotone",
+    "short_code": "HW07",
+    "name": "雙色孔版印刷",
+    "name_en": "Duotone risograph",
+    "audience": "文化活動、創意提案 handdrawn handwriting 手繪 手寫 Cultural events and creative pitches",
+    "palette": [
+      "F6F0E5",
+      "164B99",
+      "F0523D",
+      "D9D0BD"
+    ],
+    "palette_roles": [
+      "background",
+      "text",
+      "accent",
+      "secondary"
+    ],
+    "material": "雙專色疊印、細顆粒與微幅套印偏移",
+    "layout": "幾何主體與大留白；套印偏移只作用於插畫，文字與數據維持銳利",
+    "avoid": "正式標題、內文、引用、數值與流程標籤不生成在背景中",
+    "typography": {
+      "title_pt": 36,
+      "body_pt": 25,
+      "note_pt": 15,
+      "preferred_font": "Microsoft JhengHei",
+      "handwritten_option": "DFKai-SB only if installed and glyphs verified",
+      "fallback": "Use an installed Traditional Chinese font"
+    },
+    "layout_reference": "handdraw-styles.md",
+    "background_prompt": "用途：16:9 簡報無字背景。媒材：雙專色疊印、細顆粒與微幅套印偏移。幾何主體與大留白；套印偏移只作用於插畫，文字與數據維持銳利。主體、動作與圖文留白依本頁大綱設定。不生成標題、內文、引用、數值、Logo 或正式圖解標籤，這些以 PPT 原生物件加入。",
+    "background_prompt_en": "Create a text-free 16:9 slide background. Medium: Two ink colors on ivory paper, fine print grain, small registration offsets and overlapping ink. Use the page brief for subject, action, composition and text-safe space. Leave headings, body copy, citations, numbers and formal diagram labels out of the image; add them as native PowerPoint objects.",
+    "origin": "Original SlideWeave recipe; numbered discovery concept inspired by yang0/handraw-style; no upstream assets or prompts copied",
+    "source_url": "https://github.com/yang0/handraw-style",
+    "model_workflow": "image25-workflow.md"
+  },
+  {
+    "id": "cut-paper-collage",
+    "short_code": "HW08",
+    "name": "手工剪紙拼貼",
+    "name_en": "Hand-cut paper collage",
+    "audience": "故事教學、社區與人文 handdrawn handwriting 手繪 手寫 Storytelling, community and humanities",
+    "palette": [
+      "F5EDD9",
+      "39271B",
+      "BB6647",
+      "71836A"
+    ],
+    "palette_roles": [
+      "background",
+      "text",
+      "accent",
+      "secondary"
+    ],
+    "material": "纖維紙邊、不規則剪形、霧面色紙與淺層投影",
+    "layout": "以少量紙層建立敘事場景，保留平整文字區；正文不放在碎紙縫隙",
+    "avoid": "正式標題、內文、引用、數值與流程標籤不生成在背景中",
+    "typography": {
+      "title_pt": 36,
+      "body_pt": 25,
+      "note_pt": 15,
+      "preferred_font": "Microsoft JhengHei",
+      "handwritten_option": "DFKai-SB only if installed and glyphs verified",
+      "fallback": "Use an installed Traditional Chinese font"
+    },
+    "layout_reference": "handdraw-styles.md",
+    "background_prompt": "用途：16:9 簡報無字背景。媒材：纖維紙邊、不規則剪形、霧面色紙與淺層投影。以少量紙層建立敘事場景，保留平整文字區；正文不放在碎紙縫隙。主體、動作與圖文留白依本頁大綱設定。不生成標題、內文、引用、數值、Logo 或正式圖解標籤，這些以 PPT 原生物件加入。",
+    "background_prompt_en": "Create a text-free 16:9 slide background. Medium: Fibrous torn edges, uneven hand-cut shapes, matte terracotta and sage paper layers, shallow shadows. Use the page brief for subject, action, composition and text-safe space. Leave headings, body copy, citations, numbers and formal diagram labels out of the image; add them as native PowerPoint objects.",
+    "origin": "Original SlideWeave recipe; numbered discovery concept inspired by yang0/handraw-style; no upstream assets or prompts copied",
+    "source_url": "https://github.com/yang0/handraw-style",
+    "model_workflow": "image25-workflow.md"
+  },
+  {
+    "id": "single-panel-cartoon",
+    "short_code": "HW09",
+    "name": "極簡單格漫畫",
+    "name_en": "Minimalist single-panel cartoon",
+    "audience": "演講開場、觀點與概念反思 handdrawn handwriting 手繪 手寫 Talk openings, viewpoints and reflection",
+    "palette": [
+      "FFFFFF",
+      "202020",
+      "E7CF85",
+      "E5E5E5"
+    ],
+    "palette_roles": [
+      "background",
+      "text",
+      "accent",
+      "secondary"
+    ],
+    "material": "黑色細墨線、大量白底、極少灰階與淡色重點",
+    "layout": "單一場景呈現一個情境反差；不預設多格分鏡，不把研究結果變成虛构數據",
+    "avoid": "正式標題、內文、引用、數值與流程標籤不生成在背景中",
+    "typography": {
+      "title_pt": 36,
+      "body_pt": 25,
+      "note_pt": 15,
+      "preferred_font": "Microsoft JhengHei",
+      "handwritten_option": "DFKai-SB only if installed and glyphs verified",
+      "fallback": "Use an installed Traditional Chinese font"
+    },
+    "layout_reference": "handdraw-styles.md",
+    "background_prompt": "用途：16:9 簡報無字背景。媒材：黑色細墨線、大量白底、極少灰階與淡色重點。單一場景呈現一個情境反差；不預設多格分鏡，不把研究結果變成虛构數據。主體、動作與圖文留白依本頁大綱設定。不生成標題、內文、引用、數值、Logo 或正式圖解標籤，這些以 PPT 原生物件加入。",
+    "background_prompt_en": "Create a text-free 16:9 slide background. Medium: Lively fine ink contours, generous white space, sparse gray wash and one subtle accent; a single situational visual contrast. Use the page brief for subject, action, composition and text-safe space. Leave headings, body copy, citations, numbers and formal diagram labels out of the image; add them as native PowerPoint objects.",
+    "origin": "Original SlideWeave recipe; numbered discovery concept inspired by yang0/handraw-style; no upstream assets or prompts copied",
+    "source_url": "https://github.com/yang0/handraw-style",
+    "model_workflow": "image25-workflow.md"
   }
 ]

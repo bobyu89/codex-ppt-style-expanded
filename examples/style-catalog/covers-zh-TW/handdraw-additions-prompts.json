@@ -1,0 +1,29 @@
+[
+  {
+    "id": "risograph-duotone",
+    "prompt": "Create one polished 16:9 PPT style-reference cover. Two ink risograph, cobalt blue and vivid coral red on ivory paper, grain and gentle registration offset, overlapped ink creates dark intersections. Bold original geometric paper-and-projector concept, generous negative space, visually handmade print, no third ink. Exact visible Traditional Chinese title \"雙色孔版印刷\", small code \"HW07\", subtitle \"把想法畫成簡報\". Only these three texts. Make Chinese perfectly legible, with a large elegant headline and a strong editorial composition. No logo, watermark, extra text, or artist imitation. This is a raster reference cover.",
+    "backend": "built-in image_gen",
+    "model_actual": "unknown",
+    "model_verified": false,
+    "kind": "generated-cover-reference",
+    "image": "examples/style-catalog/covers-zh-TW/risograph-duotone.png"
+  },
+  {
+    "id": "cut-paper-collage",
+    "prompt": "Create one polished 16:9 PPT style-reference cover. Hand-cut paper collage, visibly fibrous torn edges, matte terracotta, ochre and sage paper layers with delicate shallow cast shadows. A playful paper-built landscape of ideas becoming presentation cards. Uneven hand-cut shapes; not smooth vector graphics. Exact visible Traditional Chinese title \"手工剪紙拼貼\", small code \"HW08\", subtitle \"把想法畫成簡報\". Only these three texts. Make Chinese perfectly legible, with a large elegant headline and a strong editorial composition. No logo, watermark, extra text, or artist imitation. This is a raster reference cover.",
+    "backend": "built-in image_gen",
+    "model_actual": "unknown",
+    "model_verified": false,
+    "kind": "generated-cover-reference",
+    "image": "examples/style-catalog/covers-zh-TW/cut-paper-collage.png"
+  },
+  {
+    "id": "single-panel-cartoon",
+    "prompt": "Create one polished 16:9 PPT style-reference cover. Minimalist single-panel ink cartoon on clean white paper. One gently humorous scene: a tiny presenter cheerfully stands beside an enormous precarious tower of blank notes while their presentation board has one beautifully simple lightbulb drawing. Fine lively black contours, extremely sparse light gray wash, lots of white space. No speech bubbles or panel grid. Exact visible Traditional Chinese title \"極簡單格漫畫\", small code \"HW09\", subtitle \"把想法畫成簡報\". Only these three texts. Make Chinese perfectly legible, with a large elegant headline and a strong editorial composition. No logo, watermark, extra text, or artist imitation. This is a raster reference cover.",
+    "backend": "built-in image_gen",
+    "model_actual": "unknown",
+    "model_verified": false,
+    "kind": "generated-cover-reference",
+    "image": "examples/style-catalog/covers-zh-TW/single-panel-cartoon.png"
+  }
+]

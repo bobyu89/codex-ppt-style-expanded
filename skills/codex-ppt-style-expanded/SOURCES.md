@@ -40,3 +40,7 @@ draw.io 原始工具完整內含，但未自動設定 MCP、連線服務或安�
 本次獨立新增 HW01–HW06 六種媒材配方與繁中點陣封面；目前合計 11 種上游風格＋22 種本專案配方，共 33 種。歷史範例與其原始模型標記不變。
 
 Image 2.5 適配依據官方 https://developers.openai.com/api/docs/guides/image-prompting 、https://developers.openai.com/api/docs/models/gpt-image-2.5-flare 、https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst 。更新提示詞、模型辨識與編修規則，未訓練模型；新封面由內建 image_gen 生成，工具未公開子型號，不能作為 2.5 的經驗性驗證。
+
+## 2026-09-11 第二批手作擴充
+
+新增 HW07–HW09：雙色孔版印刷、手工剪紙拼貼、極簡單格漫畫，以及獨立的手寫標題／清楚正文搭配。目前為 11 種上游方向＋25 種本專案配方，共 36 種。參考 yang0/handraw-style 的媒材分類概念，配方、提示詞及三張繁中封面皆獨立創作，未複製其圖片或提示詞。內建 image_gen 未公開確切模型，未宣稱這批圖已驗證由 Image 2.5 生成。

@@ -338,5 +338,38 @@
     "kind": "generated-cover-reference",
     "image": "examples/style-catalog/covers-zh-TW/marker-sketchnote.png",
     "spec": "skills/codex-ppt-style-expanded/references/handdraw-styles.md"
+  },
+  {
+    "id": "risograph-duotone",
+    "short_code": "HW07",
+    "name_zh": "雙色孔版印刷",
+    "name_en": "Duotone risograph",
+    "use_zh": "文化活動、創意提案",
+    "use_en": "Cultural events and creative pitches",
+    "kind": "generated-cover-reference",
+    "image": "examples/style-catalog/covers-zh-TW/risograph-duotone.png",
+    "spec": "skills/codex-ppt-style-expanded/references/handdraw-styles.md"
+  },
+  {
+    "id": "cut-paper-collage",
+    "short_code": "HW08",
+    "name_zh": "手工剪紙拼貼",
+    "name_en": "Hand-cut paper collage",
+    "use_zh": "故事教學、社區與人文",
+    "use_en": "Storytelling, community and humanities",
+    "kind": "generated-cover-reference",
+    "image": "examples/style-catalog/covers-zh-TW/cut-paper-collage.png",
+    "spec": "skills/codex-ppt-style-expanded/references/handdraw-styles.md"
+  },
+  {
+    "id": "single-panel-cartoon",
+    "short_code": "HW09",
+    "name_zh": "極簡單格漫畫",
+    "name_en": "Minimalist single-panel cartoon",
+    "use_zh": "演講開場、觀點與概念反思",
+    "use_en": "Talk openings, viewpoints and reflection",
+    "kind": "generated-cover-reference",
+    "image": "examples/style-catalog/covers-zh-TW/single-panel-cartoon.png",
+    "spec": "skills/codex-ppt-style-expanded/references/handdraw-styles.md"
   }
 ]

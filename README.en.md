@@ -2,11 +2,11 @@
 
 **Shape the story. Find the style. Keep the text editable.**
 
-[繁體中文](README.md) · [English](README.en.md) · [Download editable examples](examples/cross-matrix/cross-matrix.pptx) · [Explore styles](#all-33-built-in-styles)
+[繁體中文](README.md) · [English](README.en.md) · [Download editable examples](examples/cross-matrix/cross-matrix.pptx) · [Explore styles](#all-36-built-in-styles)
 
 SlideWeave is a presentation skill for Codex. Start with a topic, documents or rough notes. Clarify the audience, develop the narrative and compare real samples, then build a PowerPoint with AI imagery and native editable text.
 
-**33 styles · Editable text · draw.io diagrams · Research and teaching · PechaKucha**
+**36 styles · Editable text · draw.io diagrams · Research and teaching · PechaKucha**
 
 ![Handdrawn teaching sample](examples/cross-matrix/previews/teaching-handdrawn.png)
 
@@ -58,21 +58,27 @@ Context, pacing and style combine independently—for example, a handdrawn resea
 
 <a id="all-27-built-in-styles"></a>
 
-## All 33 built-in styles
+<a id="all-33-built-in-styles"></a>
+
+## All 36 built-in styles
 
 Compare all style covers below. Each entry includes its intended use, specification and exact ID.
 
-These Traditional Chinese covers are **raster style references**, not 33 editable PowerPoint masters. Actual decks use backgrounds rebuilt for their content with native text added separately. Another 22 image-prompt templates support the workflow and are not counted as deck styles.
+These Traditional Chinese covers are **raster style references**, not 36 editable PowerPoint masters. Actual decks use backgrounds rebuilt for their content with native text added separately. Another 22 image-prompt templates support the workflow and are not counted as deck styles.
 
-### Hand-drawn collection · 6 new directions
+### Hand-drawn collection · 9 directions
 
-Use our codes HW01–HW06 or the full ID. Covers below are newly generated raster references; they are not editable PPT renders or verified Image 2.5 benchmarks.
+Use our codes HW01–HW09 or the full ID. Covers below are newly generated raster references; they are not editable PPT renders or verified Image 2.5 benchmarks.
 
 | | |
 |---|---|
 | **HW01 · Graphite research notebook**<br>![石墨研究筆記](examples/style-catalog/covers-zh-TW/graphite-research.png)<br>Research methods and observation<br>`graphite-research` | **HW02 · Colored-pencil journal**<br>![色鉛筆手帳](examples/style-catalog/covers-zh-TW/colored-pencil-journal.png)<br>Learning journals and reflection<br>`colored-pencil-journal` |
 | **HW03 · Wax-crayon story**<br>![蠟筆故事](examples/style-catalog/covers-zh-TW/crayon-story.png)<br>Beginner teaching and stories<br>`crayon-story` | **HW04 · Chalk classroom**<br>![粉筆黑板](examples/style-catalog/covers-zh-TW/chalk-classroom.png)<br>Projected teaching and concepts<br>`chalk-classroom` |
 | **HW05 · Fineliner editorial**<br>![鋼筆編輯插畫](examples/style-catalog/covers-zh-TW/fineliner-editorial.png)<br>Editorial topics and introductions<br>`fineliner-editorial` | **HW06 · Marker sketchnote**<br>![麥克筆視覺筆記](examples/style-catalog/covers-zh-TW/marker-sketchnote.png)<br>Workshops and synthesis<br>`marker-sketchnote` |
+| **HW07 · Duotone risograph**<br>![雙色孔版印刷](examples/style-catalog/covers-zh-TW/risograph-duotone.png)<br>Cultural events and creative pitches<br>`risograph-duotone` | **HW08 · Hand-cut paper collage**<br>![手工剪紙拼貼](examples/style-catalog/covers-zh-TW/cut-paper-collage.png)<br>Storytelling, community and humanities<br>`cut-paper-collage` |
+| **HW09 · Minimalist single-panel cartoon**<br>![極簡單格漫畫](examples/style-catalog/covers-zh-TW/single-panel-cartoon.png)<br>Talk openings, viewpoints and reflection<br>`single-panel-cartoon` |  |
+
+Typography is a separate option: choose handwritten native headings with clear body text for any HW style. Example: “Use HW08 with editable handwritten headings and clear Traditional Chinese body text.”
 
 [Hand-drawn guide](skills/codex-ppt-style-expanded/references/handdraw-styles.md) · [Image 2.5 workflow](skills/codex-ppt-style-expanded/references/image25-workflow.md)
 
@@ -183,4 +189,4 @@ Talk planning also draws on [conference-slide guidance](https://researcher.tw/ar
 
 Original material uses [MIT](LICENSE); bundled draw.io files retain MIT, and the adapted intake guide retains Apache-2.0 attribution and licensing. [Versions and adaptations](skills/codex-ppt-style-expanded/SOURCES.md) · [License files](skills/codex-ppt-style-expanded/licenses/)
 
-Hand-drawn expansion references the numbered-discovery concept of [yang0/handraw-style](https://github.com/yang0/handraw-style). No explicit license was found when checked; its images, index, prompts and scripts are not redistributed. Our six recipes and covers are independently authored.
+Hand-drawn expansion references the numbered-discovery concept of [yang0/handraw-style](https://github.com/yang0/handraw-style). No explicit license was found when checked; its images, index, prompts and scripts are not redistributed. Our nine recipes and covers are independently authored.

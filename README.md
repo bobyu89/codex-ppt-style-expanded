@@ -2,11 +2,11 @@
 
 **把內容講清楚，把風格做出來，把文字留給你修改。**
 
-[繁體中文](README.md) · [English](README.en.md) · [下載可編輯範例](examples/cross-matrix/cross-matrix.pptx) · [瀏覽風格](#全部-33-種內建風格)
+[繁體中文](README.md) · [English](README.en.md) · [下載可編輯範例](examples/cross-matrix/cross-matrix.pptx) · [瀏覽風格](#全部-36-種內建風格)
 
 SlideWeave 是供 Codex 使用的簡報製作 Skill。從主題、文件或零散筆記出發，先理解受眾、整理敘事，再用實際樣張討論風格；以 AI 圖像搭配原生文字，製作能繼續修改的 PowerPoint。
 
-**33 種風格 · 可編輯文字 · draw.io 流程圖 · 研究與教學 · PechaKucha**
+**36 種風格 · 可編輯文字 · draw.io 流程圖 · 研究與教學 · PechaKucha**
 
 ![手繪教學範例：一頁一個主張，下面放證據](examples/cross-matrix/previews/teaching-handdrawn.png)
 
@@ -58,21 +58,27 @@ SlideWeave 是新的展示名稱；Skill 呼叫名稱仍為 `$codex-ppt-style-ex
 
 <a id="全部-27-種內建風格"></a>
 
-## 全部 33 種內建風格
+<a id="全部-33-種內建風格"></a>
+
+## 全部 36 種內建風格
 
 以下直接展示全部風格封面。每種附用途、規格與 ID，看中後可直接指定給 Codex。
 
-這裡的 33 張繁中封面是**點陣式風格參考**，不是 33 套可編輯母片。實際簡報會依內容重製無字背景，再加入原生文字。另有 22 個生圖提示詞模板作為素材資源，不計入風格數量。
+這裡的 36 張繁中封面是**點陣式風格參考**，不是 36 套可編輯母片。實際簡報會依內容重製無字背景，再加入原生文字。另有 22 個生圖提示詞模板作為素材資源，不計入風格數量。
 
-### 手繪擴充 · 6 種新方向
+### 手繪擴充 · 9 種方向
 
-可直接指定自有編號 HW01–HW06 或完整 ID。下方是新生成的點陣封面參考，並非可編輯 PPT 渲染圖，也不作為已驗證的 Image 2.5 實測。
+可直接指定自有編號 HW01–HW09 或完整 ID。下方是新生成的點陣封面參考，並非可編輯 PPT 渲染圖，也不作為已驗證的 Image 2.5 實測。
 
 | | |
 |---|---|
 | **HW01 · 石墨研究筆記**<br>![石墨研究筆記](examples/style-catalog/covers-zh-TW/graphite-research.png)<br>研究方法、結構與觀察<br>`graphite-research` | **HW02 · 色鉛筆手帳**<br>![色鉛筆手帳](examples/style-catalog/covers-zh-TW/colored-pencil-journal.png)<br>學習紀錄、生活與反思<br>`colored-pencil-journal` |
 | **HW03 · 蠟筆故事**<br>![蠟筆故事](examples/style-catalog/covers-zh-TW/crayon-story.png)<br>入門教學、親子與故事<br>`crayon-story` | **HW04 · 粉筆黑板**<br>![粉筆黑板](examples/style-catalog/covers-zh-TW/chalk-classroom.png)<br>投影教學、概念推導<br>`chalk-classroom` |
 | **HW05 · 鋼筆編輯插畫**<br>![鋼筆編輯插畫](examples/style-catalog/covers-zh-TW/fineliner-editorial.png)<br>人文專題、觀點與介紹<br>`fineliner-editorial` | **HW06 · 麥克筆視覺筆記**<br>![麥克筆視覺筆記](examples/style-catalog/covers-zh-TW/marker-sketchnote.png)<br>工作坊、重點整理與討論<br>`marker-sketchnote` |
+| **HW07 · 雙色孔版印刷**<br>![雙色孔版印刷](examples/style-catalog/covers-zh-TW/risograph-duotone.png)<br>文化活動、創意提案<br>`risograph-duotone` | **HW08 · 手工剪紙拼貼**<br>![手工剪紙拼貼](examples/style-catalog/covers-zh-TW/cut-paper-collage.png)<br>故事教學、社區與人文<br>`cut-paper-collage` |
+| **HW09 · 極簡單格漫畫**<br>![極簡單格漫畫](examples/style-catalog/covers-zh-TW/single-panel-cartoon.png)<br>演講開場、觀點與概念反思<br>`single-panel-cartoon` |  |
+
+字體可以獨立搭配：任何 HW 風格都能選擇「手寫標題＋清楚正文」。例如：「使用 HW08；標題採可編輯手寫字，正文使用清楚的繁中字體。」
 
 [手繪配方與用法](skills/codex-ppt-style-expanded/references/handdraw-styles.md) · [Image 2.5 適配](skills/codex-ppt-style-expanded/references/image25-workflow.md)
 
@@ -183,4 +189,4 @@ SlideWeave 為獨立衍生專案，整合以下來源並保留其授權：
 
 原創內容採 [MIT](LICENSE)；draw.io 原檔保留 MIT，改寫的訪談文件保留 Apache-2.0 授權與歸屬。[來源版本及修改說明](skills/codex-ppt-style-expanded/SOURCES.md) · [授權文件](skills/codex-ppt-style-expanded/licenses/)
 
-手繪擴充參考 [yang0/handraw-style](https://github.com/yang0/handraw-style) 的編號選圖概念。查核時未見明示授權，因此未分發其圖片、索引、提示詞或程式；六種配方與封面由本專案另行創作。
+手繪擴充參考 [yang0/handraw-style](https://github.com/yang0/handraw-style) 的編號選圖概念。查核時未見明示授權，因此未分發其圖片、索引、提示詞或程式；九種配方與封面由本專案另行創作。

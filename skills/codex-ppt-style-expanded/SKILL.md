@@ -25,9 +25,9 @@ description: Create multi-style PowerPoint decks with AI-generated backgrounds a
 在專案內保存 `brief.md` 和 `outline.md`。逐頁記錄主張、內容、來源、頁面角色、必要素材。受眾決定解釋深度；風格不能取代內容準確性。
 
 ### 2. 搜尋與收斂風格
-使用者指定手繪、手寫或 HW01–HW06 時，讀取 [references/handdraw-styles.md](references/handdraw-styles.md)。針對 Image 2.5 的工作讀取 [references/image25-workflow.md](references/image25-workflow.md)：分開記錄目標與實際模型，依官方能力選擇 Flare／Sunburst，這是提示詞適配而非模型權重訓練。
+使用者指定手繪、手寫或 HW01–HW09 時，讀取 [references/handdraw-styles.md](references/handdraw-styles.md)。針對 Image 2.5 的工作讀取 [references/image25-workflow.md](references/image25-workflow.md)：分開記錄目標與實際模型，依官方能力選擇 Flare／Sunburst，這是提示詞適配而非模型權重訓練。
 
-先查閱 [references/style-catalog.json](references/style-catalog.json) 的 33 種完整圖例索引。目錄封面 kind 為 generated-cover-reference，是繁中點陣示意圖，不能冒充可編輯 PPT 預覽。實際樣張仍需無字背景與原生文字分層。圖片為線上預覽連結或儲存庫根目錄相對路徑；獨立安裝 Skill 時可至 GitHub README 查看圖片。
+先查閱 [references/style-catalog.json](references/style-catalog.json) 的 36 種完整圖例索引。目錄封面 kind 為 generated-cover-reference，是繁中點陣示意圖，不能冒充可編輯 PPT 預覽。實際樣張仍需無字背景與原生文字分層。圖片為線上預覽連結或儲存庫根目錄相對路徑；獨立安裝 Skill 時可至 GitHub README 查看圖片。
 讀取 [references/style-expansion.md](references/style-expansion.md)。優先採用使用者明確指定的風格或參考圖；本系列預設以 codex-ppt 上游的原始風格與實際圖片為視覺基準，尤其手繪技術解釋、科研及創意雜誌。新增配方作為可選延伸，不能取代使用者喜歡的原始美學。沒有指定時推薦三種，最多五種。每種附配色、圖像語言、密度、適用原因。五種是每輪比較上限，不是風格庫容量上限。
 
 用 `python scripts/search_styles.py --query "醫療 教學 illustration" --limit 5` 查詢；原始資料與衍生配方皆可离線讀取。詞彙搜尋只作檢索，不把分數當作美學判斷。
@@ -52,7 +52,7 @@ description: Create multi-style PowerPoint decks with AI-generated backgrounds a
 
 ## 工具
 
-- `scripts/search_styles.py`：查原始 11 種 PPT 風格、衍生配方和 Image 2 模板；支援 `--list`、`--show ID`（也接受 HW01–HW06）。
+- `scripts/search_styles.py`：查原始 11 種 PPT 風格、衍生配方和 Image 2 模板；支援 `--list`、`--show ID`（也接受 HW01–HW09）。
 - `scripts/assemble_editable.py`：基本原生文字/形狀/圖片/備註組裝器，輸入規格見 production.md。需 Python 與 python-pptx。資料圖表等超出此組裝器的頁面，使用環境既有 PPT 工具建立原生物件，不轉成圖片冒充可編輯。
 - 生圖、參考圖片檢視和 PPT 渲染使用當前環境可用工具；遵循該環境的工具與 Skill 要求。沒有生圖或渲染能力時準確報告限制。
 
